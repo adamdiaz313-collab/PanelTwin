@@ -1,0 +1,3636 @@
+{
+  "home": {
+    "name": "My Home",
+    "address": "Sample split-phase residence",
+    "id": "29da135fb31f4c838f0edaabdd35a514",
+    "panel_id": "35626071f49847e98dd565bcc7d274fb"
+  },
+  "electricity_rate": 0.18,
+  "main_service_rating": 200,
+  "summary": {
+    "connected_watts": 16020.0,
+    "connected_va": 16942.387,
+    "leg_a_current": 42.445,
+    "leg_b_current": 41.816,
+    "neutral_current": 10.931,
+    "leg_imbalance_percent": 4.158,
+    "main_service_rating": 200,
+    "main_service_utilization_percent": 21.223,
+    "main_service_status": "safe",
+    "leg_a_status": "safe",
+    "leg_b_status": "safe",
+    "peak_demand_watts": 9680.0,
+    "peak_demand_label": "18:00",
+    "peak_demand_day_type": "weekday",
+    "average_daily_kwh": 53.929,
+    "monthly_kwh": 1617.88,
+    "monthly_cost": 291.218,
+    "circuit_count": 5,
+    "load_count": 7,
+    "safe_count": 5,
+    "advisory_count": 0,
+    "overloaded_count": 0,
+    "transient_advisory_count": 4,
+    "high_concurrency_count": 11,
+    "leg_unbalanced": false,
+    "measured_load_count": 2,
+    "manufacturer_load_count": 4,
+    "estimated_load_count": 1
+  },
+  "circuits": [
+    {
+      "name": "Kitchen small appliances",
+      "voltage": 120,
+      "breaker_rating": 20,
+      "leg": "A",
+      "id": "ff33c545792544f0aa250bc56cb14e43",
+      "panel_id": "35626071f49847e98dd565bcc7d274fb",
+      "connected_watts": 1280.0,
+      "connected_va": 1311.765,
+      "connected_amps": 10.931,
+      "peak_running_amps": 10.931,
+      "peak_noncontinuous_amps": 10.931,
+      "peak_continuous_amps": 0.0,
+      "peak_calculated_load_amps": 10.931,
+      "running_utilization_percent": 54.657,
+      "calculated_load_utilization_percent": 54.657,
+      "overloaded": false,
+      "load_advisory": false,
+      "transient_peak_amps": 7.059,
+      "transient_advisory": false,
+      "status": "safe",
+      "peak_period_label": "06:30",
+      "peak_day_type": "weekday",
+      "average_daily_kwh": 1.99,
+      "monthly_kwh": 59.7,
+      "monthly_cost": 10.746,
+      "loads": [
+        {
+          "name": "Coffee maker",
+          "wattage": 1100.0,
+          "voltage": 120,
+          "continuous": false,
+          "power_factor": 1.0,
+          "inrush_multiplier": 1.0,
+          "inrush_duration_seconds": 0.0,
+          "data_quality": "Estimated",
+          "weekday_periods": [
+            {
+              "start_time": "06:30",
+              "end_time": "07:00"
+            }
+          ],
+          "weekend_periods": [
+            {
+              "start_time": "08:00",
+              "end_time": "08:30"
+            }
+          ],
+          "preset_key": "coffee-maker",
+          "id": "a42642a9d11345c49717fdec11afb681",
+          "circuit_id": "ff33c545792544f0aa250bc56cb14e43",
+          "real_power_watts": 1100.0,
+          "apparent_power_va": 1100.0,
+          "running_current_amps": 9.167,
+          "startup_current_amps": 9.167,
+          "inrush_extra_amps": 0.0,
+          "breaker_calculation_amps": 9.167,
+          "weekday_hours": 0.5,
+          "weekend_hours": 0.5,
+          "average_daily_kwh": 0.55,
+          "monthly_kwh": 16.5,
+          "monthly_cost": 2.97
+        },
+        {
+          "name": "Refrigerator",
+          "wattage": 180.0,
+          "voltage": 120,
+          "continuous": false,
+          "power_factor": 0.85,
+          "inrush_multiplier": 4.0,
+          "inrush_duration_seconds": 1.0,
+          "data_quality": "Manufacturer",
+          "weekday_periods": [
+            {
+              "start_time": "00:00",
+              "end_time": "01:00"
+            },
+            {
+              "start_time": "03:00",
+              "end_time": "04:00"
+            },
+            {
+              "start_time": "06:00",
+              "end_time": "07:00"
+            },
+            {
+              "start_time": "09:00",
+              "end_time": "10:00"
+            },
+            {
+              "start_time": "12:00",
+              "end_time": "13:00"
+            },
+            {
+              "start_time": "15:00",
+              "end_time": "16:00"
+            },
+            {
+              "start_time": "18:00",
+              "end_time": "19:00"
+            },
+            {
+              "start_time": "21:00",
+              "end_time": "22:00"
+            }
+          ],
+          "weekend_periods": [
+            {
+              "start_time": "00:00",
+              "end_time": "01:00"
+            },
+            {
+              "start_time": "03:00",
+              "end_time": "04:00"
+            },
+            {
+              "start_time": "06:00",
+              "end_time": "07:00"
+            },
+            {
+              "start_time": "09:00",
+              "end_time": "10:00"
+            },
+            {
+              "start_time": "12:00",
+              "end_time": "13:00"
+            },
+            {
+              "start_time": "15:00",
+              "end_time": "16:00"
+            },
+            {
+              "start_time": "18:00",
+              "end_time": "19:00"
+            },
+            {
+              "start_time": "21:00",
+              "end_time": "22:00"
+            }
+          ],
+          "preset_key": "refrigerator",
+          "id": "10dfd0c9abd44e0f91318effe17e6732",
+          "circuit_id": "ff33c545792544f0aa250bc56cb14e43",
+          "real_power_watts": 180.0,
+          "apparent_power_va": 211.765,
+          "running_current_amps": 1.765,
+          "startup_current_amps": 7.059,
+          "inrush_extra_amps": 5.294,
+          "breaker_calculation_amps": 1.765,
+          "weekday_hours": 8.0,
+          "weekend_hours": 8.0,
+          "average_daily_kwh": 1.44,
+          "monthly_kwh": 43.2,
+          "monthly_cost": 7.776
+        }
+      ]
+    },
+    {
+      "name": "Home office",
+      "voltage": 120,
+      "breaker_rating": 15,
+      "leg": "B",
+      "id": "8478f6fa9a494fccb8512d526f6264e3",
+      "panel_id": "35626071f49847e98dd565bcc7d274fb",
+      "connected_watts": 1040.0,
+      "connected_va": 1094.737,
+      "connected_amps": 9.123,
+      "peak_running_amps": 9.123,
+      "peak_noncontinuous_amps": 0.0,
+      "peak_continuous_amps": 9.123,
+      "peak_calculated_load_amps": 11.404,
+      "running_utilization_percent": 60.819,
+      "calculated_load_utilization_percent": 76.023,
+      "overloaded": false,
+      "load_advisory": false,
+      "transient_peak_amps": 10.719,
+      "transient_advisory": false,
+      "status": "safe",
+      "peak_period_label": "08:00",
+      "peak_day_type": "weekday",
+      "average_daily_kwh": 6.916,
+      "monthly_kwh": 207.48,
+      "monthly_cost": 37.346,
+      "loads": [
+        {
+          "name": "Computer workstation",
+          "wattage": 780.0,
+          "voltage": 120,
+          "continuous": true,
+          "power_factor": 0.95,
+          "inrush_multiplier": 1.2,
+          "inrush_duration_seconds": 0.5,
+          "data_quality": "Measured",
+          "weekday_periods": [
+            {
+              "start_time": "08:00",
+              "end_time": "12:00"
+            },
+            {
+              "start_time": "13:00",
+              "end_time": "17:00"
+            }
+          ],
+          "weekend_periods": [
+            {
+              "start_time": "10:00",
+              "end_time": "12:00"
+            }
+          ],
+          "preset_key": "computer-workstation",
+          "id": "2f851d0b34534ac6b53cc4a28b3f4bf2",
+          "circuit_id": "8478f6fa9a494fccb8512d526f6264e3",
+          "real_power_watts": 780.0,
+          "apparent_power_va": 821.053,
+          "running_current_amps": 6.842,
+          "startup_current_amps": 8.211,
+          "inrush_extra_amps": 1.368,
+          "breaker_calculation_amps": 8.553,
+          "weekday_hours": 8.0,
+          "weekend_hours": 2.0,
+          "average_daily_kwh": 4.992,
+          "monthly_kwh": 149.76,
+          "monthly_cost": 26.957
+        },
+        {
+          "name": "Monitors and network",
+          "wattage": 260.0,
+          "voltage": 120,
+          "continuous": true,
+          "power_factor": 0.95,
+          "inrush_multiplier": 1.1,
+          "inrush_duration_seconds": 0.2,
+          "data_quality": "Measured",
+          "weekday_periods": [
+            {
+              "start_time": "08:00",
+              "end_time": "12:00"
+            },
+            {
+              "start_time": "13:00",
+              "end_time": "18:00"
+            }
+          ],
+          "weekend_periods": [
+            {
+              "start_time": "10:00",
+              "end_time": "13:00"
+            }
+          ],
+          "preset_key": "home-office",
+          "id": "f4889de6a0bc4127bdcc8966d7dce30b",
+          "circuit_id": "8478f6fa9a494fccb8512d526f6264e3",
+          "real_power_watts": 260.0,
+          "apparent_power_va": 273.684,
+          "running_current_amps": 2.281,
+          "startup_current_amps": 2.509,
+          "inrush_extra_amps": 0.228,
+          "breaker_calculation_amps": 2.851,
+          "weekday_hours": 9.0,
+          "weekend_hours": 3.0,
+          "average_daily_kwh": 1.924,
+          "monthly_kwh": 57.72,
+          "monthly_cost": 10.39
+        }
+      ]
+    },
+    {
+      "name": "Electric dryer",
+      "voltage": 240,
+      "breaker_rating": 30,
+      "leg": "AB",
+      "id": "51d0291c02dd424792cfba01c9186875",
+      "panel_id": "35626071f49847e98dd565bcc7d274fb",
+      "connected_watts": 5000.0,
+      "connected_va": 5263.158,
+      "connected_amps": 21.93,
+      "peak_running_amps": 21.93,
+      "peak_noncontinuous_amps": 21.93,
+      "peak_continuous_amps": 0.0,
+      "peak_calculated_load_amps": 21.93,
+      "running_utilization_percent": 73.099,
+      "calculated_load_utilization_percent": 73.099,
+      "overloaded": false,
+      "load_advisory": false,
+      "transient_peak_amps": 54.825,
+      "transient_advisory": true,
+      "status": "safe",
+      "peak_period_label": "18:00",
+      "peak_day_type": "weekday",
+      "average_daily_kwh": 4.083,
+      "monthly_kwh": 122.5,
+      "monthly_cost": 22.05,
+      "loads": [
+        {
+          "name": "Dryer heating and motor",
+          "wattage": 5000.0,
+          "voltage": 240,
+          "continuous": false,
+          "power_factor": 0.95,
+          "inrush_multiplier": 2.5,
+          "inrush_duration_seconds": 1.5,
+          "data_quality": "Manufacturer",
+          "weekday_periods": [
+            {
+              "start_time": "18:00",
+              "end_time": "18:45"
+            }
+          ],
+          "weekend_periods": [
+            {
+              "start_time": "14:00",
+              "end_time": "15:00"
+            }
+          ],
+          "preset_key": "electric-dryer",
+          "id": "27b26710121e4f03b7cf7894eeb34bdb",
+          "circuit_id": "51d0291c02dd424792cfba01c9186875",
+          "real_power_watts": 5000.0,
+          "apparent_power_va": 5263.158,
+          "running_current_amps": 21.93,
+          "startup_current_amps": 54.825,
+          "inrush_extra_amps": 32.895,
+          "breaker_calculation_amps": 21.93,
+          "weekday_hours": 0.75,
+          "weekend_hours": 1.0,
+          "average_daily_kwh": 4.083,
+          "monthly_kwh": 122.5,
+          "monthly_cost": 22.05
+        }
+      ]
+    },
+    {
+      "name": "Water heater",
+      "voltage": 240,
+      "breaker_rating": 30,
+      "leg": "AB",
+      "id": "281e135f4b3640afaacefe76ca514903",
+      "panel_id": "35626071f49847e98dd565bcc7d274fb",
+      "connected_watts": 4500.0,
+      "connected_va": 4500.0,
+      "connected_amps": 18.75,
+      "peak_running_amps": 18.75,
+      "peak_noncontinuous_amps": 0.0,
+      "peak_continuous_amps": 18.75,
+      "peak_calculated_load_amps": 23.438,
+      "running_utilization_percent": 62.5,
+      "calculated_load_utilization_percent": 78.125,
+      "overloaded": false,
+      "load_advisory": false,
+      "transient_peak_amps": 0.0,
+      "transient_advisory": false,
+      "status": "safe",
+      "peak_period_label": "05:00",
+      "peak_day_type": "weekday",
+      "average_daily_kwh": 13.5,
+      "monthly_kwh": 405.0,
+      "monthly_cost": 72.9,
+      "loads": [
+        {
+          "name": "Tank heating elements",
+          "wattage": 4500.0,
+          "voltage": 240,
+          "continuous": true,
+          "power_factor": 1.0,
+          "inrush_multiplier": 1.0,
+          "inrush_duration_seconds": 0.0,
+          "data_quality": "Manufacturer",
+          "weekday_periods": [
+            {
+              "start_time": "05:00",
+              "end_time": "06:30"
+            },
+            {
+              "start_time": "18:00",
+              "end_time": "19:30"
+            }
+          ],
+          "weekend_periods": [
+            {
+              "start_time": "06:00",
+              "end_time": "07:30"
+            },
+            {
+              "start_time": "18:00",
+              "end_time": "19:30"
+            }
+          ],
+          "preset_key": "water-heater",
+          "id": "1183c4d9779f4306b797bdd6cba9ea2e",
+          "circuit_id": "281e135f4b3640afaacefe76ca514903",
+          "real_power_watts": 4500.0,
+          "apparent_power_va": 4500.0,
+          "running_current_amps": 18.75,
+          "startup_current_amps": 18.75,
+          "inrush_extra_amps": 0.0,
+          "breaker_calculation_amps": 23.438,
+          "weekday_hours": 3.0,
+          "weekend_hours": 3.0,
+          "average_daily_kwh": 13.5,
+          "monthly_kwh": 405.0,
+          "monthly_cost": 72.9
+        }
+      ]
+    },
+    {
+      "name": "Central air",
+      "voltage": 240,
+      "breaker_rating": 40,
+      "leg": "AB",
+      "id": "ee1f434ed7824038bdffc44bec385636",
+      "panel_id": "35626071f49847e98dd565bcc7d274fb",
+      "connected_watts": 4200.0,
+      "connected_va": 4772.727,
+      "connected_amps": 19.886,
+      "peak_running_amps": 19.886,
+      "peak_noncontinuous_amps": 0.0,
+      "peak_continuous_amps": 19.886,
+      "peak_calculated_load_amps": 24.858,
+      "running_utilization_percent": 49.716,
+      "calculated_load_utilization_percent": 62.145,
+      "overloaded": false,
+      "load_advisory": false,
+      "transient_peak_amps": 69.602,
+      "transient_advisory": true,
+      "status": "safe",
+      "peak_period_label": "12:00",
+      "peak_day_type": "weekday",
+      "average_daily_kwh": 27.44,
+      "monthly_kwh": 823.2,
+      "monthly_cost": 148.176,
+      "loads": [
+        {
+          "name": "HVAC compressor and blower",
+          "wattage": 4200.0,
+          "voltage": 240,
+          "continuous": true,
+          "power_factor": 0.88,
+          "inrush_multiplier": 3.5,
+          "inrush_duration_seconds": 0.8,
+          "data_quality": "Manufacturer",
+          "weekday_periods": [
+            {
+              "start_time": "12:00",
+              "end_time": "18:00"
+            }
+          ],
+          "weekend_periods": [
+            {
+              "start_time": "11:00",
+              "end_time": "19:00"
+            }
+          ],
+          "preset_key": "central-air",
+          "id": "c4f42cf6cadb441ba2f8cdbcb8210f1d",
+          "circuit_id": "ee1f434ed7824038bdffc44bec385636",
+          "real_power_watts": 4200.0,
+          "apparent_power_va": 4772.727,
+          "running_current_amps": 19.886,
+          "startup_current_amps": 69.602,
+          "inrush_extra_amps": 49.716,
+          "breaker_calculation_amps": 24.858,
+          "weekday_hours": 6.0,
+          "weekend_hours": 8.0,
+          "average_daily_kwh": 27.44,
+          "monthly_kwh": 823.2,
+          "monthly_cost": 148.176
+        }
+      ]
+    }
+  ],
+  "weekday_demand": [
+    {
+      "interval_index": 0,
+      "minute_of_day": 0,
+      "day_type": "weekday",
+      "label": "00:00",
+      "real_power_watts": 180.0,
+      "apparent_power_va": 211.765,
+      "leg_a_amps": 1.765,
+      "leg_b_amps": 0.0,
+      "neutral_amps": 1.765,
+      "active_load_count": 1,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 1,
+      "minute_of_day": 15,
+      "day_type": "weekday",
+      "label": "00:15",
+      "real_power_watts": 180.0,
+      "apparent_power_va": 211.765,
+      "leg_a_amps": 1.765,
+      "leg_b_amps": 0.0,
+      "neutral_amps": 1.765,
+      "active_load_count": 1,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 2,
+      "minute_of_day": 30,
+      "day_type": "weekday",
+      "label": "00:30",
+      "real_power_watts": 180.0,
+      "apparent_power_va": 211.765,
+      "leg_a_amps": 1.765,
+      "leg_b_amps": 0.0,
+      "neutral_amps": 1.765,
+      "active_load_count": 1,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 3,
+      "minute_of_day": 45,
+      "day_type": "weekday",
+      "label": "00:45",
+      "real_power_watts": 180.0,
+      "apparent_power_va": 211.765,
+      "leg_a_amps": 1.765,
+      "leg_b_amps": 0.0,
+      "neutral_amps": 1.765,
+      "active_load_count": 1,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 4,
+      "minute_of_day": 60,
+      "day_type": "weekday",
+      "label": "01:00",
+      "real_power_watts": 0.0,
+      "apparent_power_va": 0.0,
+      "leg_a_amps": 0.0,
+      "leg_b_amps": 0.0,
+      "neutral_amps": 0.0,
+      "active_load_count": 0,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 5,
+      "minute_of_day": 75,
+      "day_type": "weekday",
+      "label": "01:15",
+      "real_power_watts": 0.0,
+      "apparent_power_va": 0.0,
+      "leg_a_amps": 0.0,
+      "leg_b_amps": 0.0,
+      "neutral_amps": 0.0,
+      "active_load_count": 0,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 6,
+      "minute_of_day": 90,
+      "day_type": "weekday",
+      "label": "01:30",
+      "real_power_watts": 0.0,
+      "apparent_power_va": 0.0,
+      "leg_a_amps": 0.0,
+      "leg_b_amps": 0.0,
+      "neutral_amps": 0.0,
+      "active_load_count": 0,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 7,
+      "minute_of_day": 105,
+      "day_type": "weekday",
+      "label": "01:45",
+      "real_power_watts": 0.0,
+      "apparent_power_va": 0.0,
+      "leg_a_amps": 0.0,
+      "leg_b_amps": 0.0,
+      "neutral_amps": 0.0,
+      "active_load_count": 0,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 8,
+      "minute_of_day": 120,
+      "day_type": "weekday",
+      "label": "02:00",
+      "real_power_watts": 0.0,
+      "apparent_power_va": 0.0,
+      "leg_a_amps": 0.0,
+      "leg_b_amps": 0.0,
+      "neutral_amps": 0.0,
+      "active_load_count": 0,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 9,
+      "minute_of_day": 135,
+      "day_type": "weekday",
+      "label": "02:15",
+      "real_power_watts": 0.0,
+      "apparent_power_va": 0.0,
+      "leg_a_amps": 0.0,
+      "leg_b_amps": 0.0,
+      "neutral_amps": 0.0,
+      "active_load_count": 0,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 10,
+      "minute_of_day": 150,
+      "day_type": "weekday",
+      "label": "02:30",
+      "real_power_watts": 0.0,
+      "apparent_power_va": 0.0,
+      "leg_a_amps": 0.0,
+      "leg_b_amps": 0.0,
+      "neutral_amps": 0.0,
+      "active_load_count": 0,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 11,
+      "minute_of_day": 165,
+      "day_type": "weekday",
+      "label": "02:45",
+      "real_power_watts": 0.0,
+      "apparent_power_va": 0.0,
+      "leg_a_amps": 0.0,
+      "leg_b_amps": 0.0,
+      "neutral_amps": 0.0,
+      "active_load_count": 0,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 12,
+      "minute_of_day": 180,
+      "day_type": "weekday",
+      "label": "03:00",
+      "real_power_watts": 180.0,
+      "apparent_power_va": 211.765,
+      "leg_a_amps": 1.765,
+      "leg_b_amps": 0.0,
+      "neutral_amps": 1.765,
+      "active_load_count": 1,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 13,
+      "minute_of_day": 195,
+      "day_type": "weekday",
+      "label": "03:15",
+      "real_power_watts": 180.0,
+      "apparent_power_va": 211.765,
+      "leg_a_amps": 1.765,
+      "leg_b_amps": 0.0,
+      "neutral_amps": 1.765,
+      "active_load_count": 1,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 14,
+      "minute_of_day": 210,
+      "day_type": "weekday",
+      "label": "03:30",
+      "real_power_watts": 180.0,
+      "apparent_power_va": 211.765,
+      "leg_a_amps": 1.765,
+      "leg_b_amps": 0.0,
+      "neutral_amps": 1.765,
+      "active_load_count": 1,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 15,
+      "minute_of_day": 225,
+      "day_type": "weekday",
+      "label": "03:45",
+      "real_power_watts": 180.0,
+      "apparent_power_va": 211.765,
+      "leg_a_amps": 1.765,
+      "leg_b_amps": 0.0,
+      "neutral_amps": 1.765,
+      "active_load_count": 1,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 16,
+      "minute_of_day": 240,
+      "day_type": "weekday",
+      "label": "04:00",
+      "real_power_watts": 0.0,
+      "apparent_power_va": 0.0,
+      "leg_a_amps": 0.0,
+      "leg_b_amps": 0.0,
+      "neutral_amps": 0.0,
+      "active_load_count": 0,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 17,
+      "minute_of_day": 255,
+      "day_type": "weekday",
+      "label": "04:15",
+      "real_power_watts": 0.0,
+      "apparent_power_va": 0.0,
+      "leg_a_amps": 0.0,
+      "leg_b_amps": 0.0,
+      "neutral_amps": 0.0,
+      "active_load_count": 0,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 18,
+      "minute_of_day": 270,
+      "day_type": "weekday",
+      "label": "04:30",
+      "real_power_watts": 0.0,
+      "apparent_power_va": 0.0,
+      "leg_a_amps": 0.0,
+      "leg_b_amps": 0.0,
+      "neutral_amps": 0.0,
+      "active_load_count": 0,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 19,
+      "minute_of_day": 285,
+      "day_type": "weekday",
+      "label": "04:45",
+      "real_power_watts": 0.0,
+      "apparent_power_va": 0.0,
+      "leg_a_amps": 0.0,
+      "leg_b_amps": 0.0,
+      "neutral_amps": 0.0,
+      "active_load_count": 0,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 20,
+      "minute_of_day": 300,
+      "day_type": "weekday",
+      "label": "05:00",
+      "real_power_watts": 4500.0,
+      "apparent_power_va": 4500.0,
+      "leg_a_amps": 18.75,
+      "leg_b_amps": 18.75,
+      "neutral_amps": 0.0,
+      "active_load_count": 1,
+      "high_power_loads": [
+        "Tank heating elements"
+      ]
+    },
+    {
+      "interval_index": 21,
+      "minute_of_day": 315,
+      "day_type": "weekday",
+      "label": "05:15",
+      "real_power_watts": 4500.0,
+      "apparent_power_va": 4500.0,
+      "leg_a_amps": 18.75,
+      "leg_b_amps": 18.75,
+      "neutral_amps": 0.0,
+      "active_load_count": 1,
+      "high_power_loads": [
+        "Tank heating elements"
+      ]
+    },
+    {
+      "interval_index": 22,
+      "minute_of_day": 330,
+      "day_type": "weekday",
+      "label": "05:30",
+      "real_power_watts": 4500.0,
+      "apparent_power_va": 4500.0,
+      "leg_a_amps": 18.75,
+      "leg_b_amps": 18.75,
+      "neutral_amps": 0.0,
+      "active_load_count": 1,
+      "high_power_loads": [
+        "Tank heating elements"
+      ]
+    },
+    {
+      "interval_index": 23,
+      "minute_of_day": 345,
+      "day_type": "weekday",
+      "label": "05:45",
+      "real_power_watts": 4500.0,
+      "apparent_power_va": 4500.0,
+      "leg_a_amps": 18.75,
+      "leg_b_amps": 18.75,
+      "neutral_amps": 0.0,
+      "active_load_count": 1,
+      "high_power_loads": [
+        "Tank heating elements"
+      ]
+    },
+    {
+      "interval_index": 24,
+      "minute_of_day": 360,
+      "day_type": "weekday",
+      "label": "06:00",
+      "real_power_watts": 4680.0,
+      "apparent_power_va": 4711.765,
+      "leg_a_amps": 20.515,
+      "leg_b_amps": 18.75,
+      "neutral_amps": 1.765,
+      "active_load_count": 2,
+      "high_power_loads": [
+        "Tank heating elements"
+      ]
+    },
+    {
+      "interval_index": 25,
+      "minute_of_day": 375,
+      "day_type": "weekday",
+      "label": "06:15",
+      "real_power_watts": 4680.0,
+      "apparent_power_va": 4711.765,
+      "leg_a_amps": 20.515,
+      "leg_b_amps": 18.75,
+      "neutral_amps": 1.765,
+      "active_load_count": 2,
+      "high_power_loads": [
+        "Tank heating elements"
+      ]
+    },
+    {
+      "interval_index": 26,
+      "minute_of_day": 390,
+      "day_type": "weekday",
+      "label": "06:30",
+      "real_power_watts": 1280.0,
+      "apparent_power_va": 1311.765,
+      "leg_a_amps": 10.931,
+      "leg_b_amps": 0.0,
+      "neutral_amps": 10.931,
+      "active_load_count": 2,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 27,
+      "minute_of_day": 405,
+      "day_type": "weekday",
+      "label": "06:45",
+      "real_power_watts": 1280.0,
+      "apparent_power_va": 1311.765,
+      "leg_a_amps": 10.931,
+      "leg_b_amps": 0.0,
+      "neutral_amps": 10.931,
+      "active_load_count": 2,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 28,
+      "minute_of_day": 420,
+      "day_type": "weekday",
+      "label": "07:00",
+      "real_power_watts": 0.0,
+      "apparent_power_va": 0.0,
+      "leg_a_amps": 0.0,
+      "leg_b_amps": 0.0,
+      "neutral_amps": 0.0,
+      "active_load_count": 0,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 29,
+      "minute_of_day": 435,
+      "day_type": "weekday",
+      "label": "07:15",
+      "real_power_watts": 0.0,
+      "apparent_power_va": 0.0,
+      "leg_a_amps": 0.0,
+      "leg_b_amps": 0.0,
+      "neutral_amps": 0.0,
+      "active_load_count": 0,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 30,
+      "minute_of_day": 450,
+      "day_type": "weekday",
+      "label": "07:30",
+      "real_power_watts": 0.0,
+      "apparent_power_va": 0.0,
+      "leg_a_amps": 0.0,
+      "leg_b_amps": 0.0,
+      "neutral_amps": 0.0,
+      "active_load_count": 0,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 31,
+      "minute_of_day": 465,
+      "day_type": "weekday",
+      "label": "07:45",
+      "real_power_watts": 0.0,
+      "apparent_power_va": 0.0,
+      "leg_a_amps": 0.0,
+      "leg_b_amps": 0.0,
+      "neutral_amps": 0.0,
+      "active_load_count": 0,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 32,
+      "minute_of_day": 480,
+      "day_type": "weekday",
+      "label": "08:00",
+      "real_power_watts": 1040.0,
+      "apparent_power_va": 1094.737,
+      "leg_a_amps": 0.0,
+      "leg_b_amps": 9.123,
+      "neutral_amps": 9.123,
+      "active_load_count": 2,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 33,
+      "minute_of_day": 495,
+      "day_type": "weekday",
+      "label": "08:15",
+      "real_power_watts": 1040.0,
+      "apparent_power_va": 1094.737,
+      "leg_a_amps": 0.0,
+      "leg_b_amps": 9.123,
+      "neutral_amps": 9.123,
+      "active_load_count": 2,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 34,
+      "minute_of_day": 510,
+      "day_type": "weekday",
+      "label": "08:30",
+      "real_power_watts": 1040.0,
+      "apparent_power_va": 1094.737,
+      "leg_a_amps": 0.0,
+      "leg_b_amps": 9.123,
+      "neutral_amps": 9.123,
+      "active_load_count": 2,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 35,
+      "minute_of_day": 525,
+      "day_type": "weekday",
+      "label": "08:45",
+      "real_power_watts": 1040.0,
+      "apparent_power_va": 1094.737,
+      "leg_a_amps": 0.0,
+      "leg_b_amps": 9.123,
+      "neutral_amps": 9.123,
+      "active_load_count": 2,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 36,
+      "minute_of_day": 540,
+      "day_type": "weekday",
+      "label": "09:00",
+      "real_power_watts": 1220.0,
+      "apparent_power_va": 1306.502,
+      "leg_a_amps": 1.765,
+      "leg_b_amps": 9.123,
+      "neutral_amps": 7.358,
+      "active_load_count": 3,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 37,
+      "minute_of_day": 555,
+      "day_type": "weekday",
+      "label": "09:15",
+      "real_power_watts": 1220.0,
+      "apparent_power_va": 1306.502,
+      "leg_a_amps": 1.765,
+      "leg_b_amps": 9.123,
+      "neutral_amps": 7.358,
+      "active_load_count": 3,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 38,
+      "minute_of_day": 570,
+      "day_type": "weekday",
+      "label": "09:30",
+      "real_power_watts": 1220.0,
+      "apparent_power_va": 1306.502,
+      "leg_a_amps": 1.765,
+      "leg_b_amps": 9.123,
+      "neutral_amps": 7.358,
+      "active_load_count": 3,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 39,
+      "minute_of_day": 585,
+      "day_type": "weekday",
+      "label": "09:45",
+      "real_power_watts": 1220.0,
+      "apparent_power_va": 1306.502,
+      "leg_a_amps": 1.765,
+      "leg_b_amps": 9.123,
+      "neutral_amps": 7.358,
+      "active_load_count": 3,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 40,
+      "minute_of_day": 600,
+      "day_type": "weekday",
+      "label": "10:00",
+      "real_power_watts": 1040.0,
+      "apparent_power_va": 1094.737,
+      "leg_a_amps": 0.0,
+      "leg_b_amps": 9.123,
+      "neutral_amps": 9.123,
+      "active_load_count": 2,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 41,
+      "minute_of_day": 615,
+      "day_type": "weekday",
+      "label": "10:15",
+      "real_power_watts": 1040.0,
+      "apparent_power_va": 1094.737,
+      "leg_a_amps": 0.0,
+      "leg_b_amps": 9.123,
+      "neutral_amps": 9.123,
+      "active_load_count": 2,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 42,
+      "minute_of_day": 630,
+      "day_type": "weekday",
+      "label": "10:30",
+      "real_power_watts": 1040.0,
+      "apparent_power_va": 1094.737,
+      "leg_a_amps": 0.0,
+      "leg_b_amps": 9.123,
+      "neutral_amps": 9.123,
+      "active_load_count": 2,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 43,
+      "minute_of_day": 645,
+      "day_type": "weekday",
+      "label": "10:45",
+      "real_power_watts": 1040.0,
+      "apparent_power_va": 1094.737,
+      "leg_a_amps": 0.0,
+      "leg_b_amps": 9.123,
+      "neutral_amps": 9.123,
+      "active_load_count": 2,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 44,
+      "minute_of_day": 660,
+      "day_type": "weekday",
+      "label": "11:00",
+      "real_power_watts": 1040.0,
+      "apparent_power_va": 1094.737,
+      "leg_a_amps": 0.0,
+      "leg_b_amps": 9.123,
+      "neutral_amps": 9.123,
+      "active_load_count": 2,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 45,
+      "minute_of_day": 675,
+      "day_type": "weekday",
+      "label": "11:15",
+      "real_power_watts": 1040.0,
+      "apparent_power_va": 1094.737,
+      "leg_a_amps": 0.0,
+      "leg_b_amps": 9.123,
+      "neutral_amps": 9.123,
+      "active_load_count": 2,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 46,
+      "minute_of_day": 690,
+      "day_type": "weekday",
+      "label": "11:30",
+      "real_power_watts": 1040.0,
+      "apparent_power_va": 1094.737,
+      "leg_a_amps": 0.0,
+      "leg_b_amps": 9.123,
+      "neutral_amps": 9.123,
+      "active_load_count": 2,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 47,
+      "minute_of_day": 705,
+      "day_type": "weekday",
+      "label": "11:45",
+      "real_power_watts": 1040.0,
+      "apparent_power_va": 1094.737,
+      "leg_a_amps": 0.0,
+      "leg_b_amps": 9.123,
+      "neutral_amps": 9.123,
+      "active_load_count": 2,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 48,
+      "minute_of_day": 720,
+      "day_type": "weekday",
+      "label": "12:00",
+      "real_power_watts": 4380.0,
+      "apparent_power_va": 4984.492,
+      "leg_a_amps": 21.651,
+      "leg_b_amps": 19.886,
+      "neutral_amps": 1.765,
+      "active_load_count": 2,
+      "high_power_loads": [
+        "HVAC compressor and blower"
+      ]
+    },
+    {
+      "interval_index": 49,
+      "minute_of_day": 735,
+      "day_type": "weekday",
+      "label": "12:15",
+      "real_power_watts": 4380.0,
+      "apparent_power_va": 4984.492,
+      "leg_a_amps": 21.651,
+      "leg_b_amps": 19.886,
+      "neutral_amps": 1.765,
+      "active_load_count": 2,
+      "high_power_loads": [
+        "HVAC compressor and blower"
+      ]
+    },
+    {
+      "interval_index": 50,
+      "minute_of_day": 750,
+      "day_type": "weekday",
+      "label": "12:30",
+      "real_power_watts": 4380.0,
+      "apparent_power_va": 4984.492,
+      "leg_a_amps": 21.651,
+      "leg_b_amps": 19.886,
+      "neutral_amps": 1.765,
+      "active_load_count": 2,
+      "high_power_loads": [
+        "HVAC compressor and blower"
+      ]
+    },
+    {
+      "interval_index": 51,
+      "minute_of_day": 765,
+      "day_type": "weekday",
+      "label": "12:45",
+      "real_power_watts": 4380.0,
+      "apparent_power_va": 4984.492,
+      "leg_a_amps": 21.651,
+      "leg_b_amps": 19.886,
+      "neutral_amps": 1.765,
+      "active_load_count": 2,
+      "high_power_loads": [
+        "HVAC compressor and blower"
+      ]
+    },
+    {
+      "interval_index": 52,
+      "minute_of_day": 780,
+      "day_type": "weekday",
+      "label": "13:00",
+      "real_power_watts": 5240.0,
+      "apparent_power_va": 5867.464,
+      "leg_a_amps": 19.886,
+      "leg_b_amps": 29.009,
+      "neutral_amps": 9.123,
+      "active_load_count": 3,
+      "high_power_loads": [
+        "HVAC compressor and blower"
+      ]
+    },
+    {
+      "interval_index": 53,
+      "minute_of_day": 795,
+      "day_type": "weekday",
+      "label": "13:15",
+      "real_power_watts": 5240.0,
+      "apparent_power_va": 5867.464,
+      "leg_a_amps": 19.886,
+      "leg_b_amps": 29.009,
+      "neutral_amps": 9.123,
+      "active_load_count": 3,
+      "high_power_loads": [
+        "HVAC compressor and blower"
+      ]
+    },
+    {
+      "interval_index": 54,
+      "minute_of_day": 810,
+      "day_type": "weekday",
+      "label": "13:30",
+      "real_power_watts": 5240.0,
+      "apparent_power_va": 5867.464,
+      "leg_a_amps": 19.886,
+      "leg_b_amps": 29.009,
+      "neutral_amps": 9.123,
+      "active_load_count": 3,
+      "high_power_loads": [
+        "HVAC compressor and blower"
+      ]
+    },
+    {
+      "interval_index": 55,
+      "minute_of_day": 825,
+      "day_type": "weekday",
+      "label": "13:45",
+      "real_power_watts": 5240.0,
+      "apparent_power_va": 5867.464,
+      "leg_a_amps": 19.886,
+      "leg_b_amps": 29.009,
+      "neutral_amps": 9.123,
+      "active_load_count": 3,
+      "high_power_loads": [
+        "HVAC compressor and blower"
+      ]
+    },
+    {
+      "interval_index": 56,
+      "minute_of_day": 840,
+      "day_type": "weekday",
+      "label": "14:00",
+      "real_power_watts": 5240.0,
+      "apparent_power_va": 5867.464,
+      "leg_a_amps": 19.886,
+      "leg_b_amps": 29.009,
+      "neutral_amps": 9.123,
+      "active_load_count": 3,
+      "high_power_loads": [
+        "HVAC compressor and blower"
+      ]
+    },
+    {
+      "interval_index": 57,
+      "minute_of_day": 855,
+      "day_type": "weekday",
+      "label": "14:15",
+      "real_power_watts": 5240.0,
+      "apparent_power_va": 5867.464,
+      "leg_a_amps": 19.886,
+      "leg_b_amps": 29.009,
+      "neutral_amps": 9.123,
+      "active_load_count": 3,
+      "high_power_loads": [
+        "HVAC compressor and blower"
+      ]
+    },
+    {
+      "interval_index": 58,
+      "minute_of_day": 870,
+      "day_type": "weekday",
+      "label": "14:30",
+      "real_power_watts": 5240.0,
+      "apparent_power_va": 5867.464,
+      "leg_a_amps": 19.886,
+      "leg_b_amps": 29.009,
+      "neutral_amps": 9.123,
+      "active_load_count": 3,
+      "high_power_loads": [
+        "HVAC compressor and blower"
+      ]
+    },
+    {
+      "interval_index": 59,
+      "minute_of_day": 885,
+      "day_type": "weekday",
+      "label": "14:45",
+      "real_power_watts": 5240.0,
+      "apparent_power_va": 5867.464,
+      "leg_a_amps": 19.886,
+      "leg_b_amps": 29.009,
+      "neutral_amps": 9.123,
+      "active_load_count": 3,
+      "high_power_loads": [
+        "HVAC compressor and blower"
+      ]
+    },
+    {
+      "interval_index": 60,
+      "minute_of_day": 900,
+      "day_type": "weekday",
+      "label": "15:00",
+      "real_power_watts": 5420.0,
+      "apparent_power_va": 6079.229,
+      "leg_a_amps": 21.651,
+      "leg_b_amps": 29.009,
+      "neutral_amps": 7.358,
+      "active_load_count": 4,
+      "high_power_loads": [
+        "HVAC compressor and blower"
+      ]
+    },
+    {
+      "interval_index": 61,
+      "minute_of_day": 915,
+      "day_type": "weekday",
+      "label": "15:15",
+      "real_power_watts": 5420.0,
+      "apparent_power_va": 6079.229,
+      "leg_a_amps": 21.651,
+      "leg_b_amps": 29.009,
+      "neutral_amps": 7.358,
+      "active_load_count": 4,
+      "high_power_loads": [
+        "HVAC compressor and blower"
+      ]
+    },
+    {
+      "interval_index": 62,
+      "minute_of_day": 930,
+      "day_type": "weekday",
+      "label": "15:30",
+      "real_power_watts": 5420.0,
+      "apparent_power_va": 6079.229,
+      "leg_a_amps": 21.651,
+      "leg_b_amps": 29.009,
+      "neutral_amps": 7.358,
+      "active_load_count": 4,
+      "high_power_loads": [
+        "HVAC compressor and blower"
+      ]
+    },
+    {
+      "interval_index": 63,
+      "minute_of_day": 945,
+      "day_type": "weekday",
+      "label": "15:45",
+      "real_power_watts": 5420.0,
+      "apparent_power_va": 6079.229,
+      "leg_a_amps": 21.651,
+      "leg_b_amps": 29.009,
+      "neutral_amps": 7.358,
+      "active_load_count": 4,
+      "high_power_loads": [
+        "HVAC compressor and blower"
+      ]
+    },
+    {
+      "interval_index": 64,
+      "minute_of_day": 960,
+      "day_type": "weekday",
+      "label": "16:00",
+      "real_power_watts": 5240.0,
+      "apparent_power_va": 5867.464,
+      "leg_a_amps": 19.886,
+      "leg_b_amps": 29.009,
+      "neutral_amps": 9.123,
+      "active_load_count": 3,
+      "high_power_loads": [
+        "HVAC compressor and blower"
+      ]
+    },
+    {
+      "interval_index": 65,
+      "minute_of_day": 975,
+      "day_type": "weekday",
+      "label": "16:15",
+      "real_power_watts": 5240.0,
+      "apparent_power_va": 5867.464,
+      "leg_a_amps": 19.886,
+      "leg_b_amps": 29.009,
+      "neutral_amps": 9.123,
+      "active_load_count": 3,
+      "high_power_loads": [
+        "HVAC compressor and blower"
+      ]
+    },
+    {
+      "interval_index": 66,
+      "minute_of_day": 990,
+      "day_type": "weekday",
+      "label": "16:30",
+      "real_power_watts": 5240.0,
+      "apparent_power_va": 5867.464,
+      "leg_a_amps": 19.886,
+      "leg_b_amps": 29.009,
+      "neutral_amps": 9.123,
+      "active_load_count": 3,
+      "high_power_loads": [
+        "HVAC compressor and blower"
+      ]
+    },
+    {
+      "interval_index": 67,
+      "minute_of_day": 1005,
+      "day_type": "weekday",
+      "label": "16:45",
+      "real_power_watts": 5240.0,
+      "apparent_power_va": 5867.464,
+      "leg_a_amps": 19.886,
+      "leg_b_amps": 29.009,
+      "neutral_amps": 9.123,
+      "active_load_count": 3,
+      "high_power_loads": [
+        "HVAC compressor and blower"
+      ]
+    },
+    {
+      "interval_index": 68,
+      "minute_of_day": 1020,
+      "day_type": "weekday",
+      "label": "17:00",
+      "real_power_watts": 4460.0,
+      "apparent_power_va": 5046.411,
+      "leg_a_amps": 19.886,
+      "leg_b_amps": 22.167,
+      "neutral_amps": 2.281,
+      "active_load_count": 2,
+      "high_power_loads": [
+        "HVAC compressor and blower"
+      ]
+    },
+    {
+      "interval_index": 69,
+      "minute_of_day": 1035,
+      "day_type": "weekday",
+      "label": "17:15",
+      "real_power_watts": 4460.0,
+      "apparent_power_va": 5046.411,
+      "leg_a_amps": 19.886,
+      "leg_b_amps": 22.167,
+      "neutral_amps": 2.281,
+      "active_load_count": 2,
+      "high_power_loads": [
+        "HVAC compressor and blower"
+      ]
+    },
+    {
+      "interval_index": 70,
+      "minute_of_day": 1050,
+      "day_type": "weekday",
+      "label": "17:30",
+      "real_power_watts": 4460.0,
+      "apparent_power_va": 5046.411,
+      "leg_a_amps": 19.886,
+      "leg_b_amps": 22.167,
+      "neutral_amps": 2.281,
+      "active_load_count": 2,
+      "high_power_loads": [
+        "HVAC compressor and blower"
+      ]
+    },
+    {
+      "interval_index": 71,
+      "minute_of_day": 1065,
+      "day_type": "weekday",
+      "label": "17:45",
+      "real_power_watts": 4460.0,
+      "apparent_power_va": 5046.411,
+      "leg_a_amps": 19.886,
+      "leg_b_amps": 22.167,
+      "neutral_amps": 2.281,
+      "active_load_count": 2,
+      "high_power_loads": [
+        "HVAC compressor and blower"
+      ]
+    },
+    {
+      "interval_index": 72,
+      "minute_of_day": 1080,
+      "day_type": "weekday",
+      "label": "18:00",
+      "real_power_watts": 9680.0,
+      "apparent_power_va": 9974.923,
+      "leg_a_amps": 42.445,
+      "leg_b_amps": 40.68,
+      "neutral_amps": 1.765,
+      "active_load_count": 3,
+      "high_power_loads": [
+        "Dryer heating and motor",
+        "Tank heating elements"
+      ]
+    },
+    {
+      "interval_index": 73,
+      "minute_of_day": 1095,
+      "day_type": "weekday",
+      "label": "18:15",
+      "real_power_watts": 9680.0,
+      "apparent_power_va": 9974.923,
+      "leg_a_amps": 42.445,
+      "leg_b_amps": 40.68,
+      "neutral_amps": 1.765,
+      "active_load_count": 3,
+      "high_power_loads": [
+        "Dryer heating and motor",
+        "Tank heating elements"
+      ]
+    },
+    {
+      "interval_index": 74,
+      "minute_of_day": 1110,
+      "day_type": "weekday",
+      "label": "18:30",
+      "real_power_watts": 9680.0,
+      "apparent_power_va": 9974.923,
+      "leg_a_amps": 42.445,
+      "leg_b_amps": 40.68,
+      "neutral_amps": 1.765,
+      "active_load_count": 3,
+      "high_power_loads": [
+        "Dryer heating and motor",
+        "Tank heating elements"
+      ]
+    },
+    {
+      "interval_index": 75,
+      "minute_of_day": 1125,
+      "day_type": "weekday",
+      "label": "18:45",
+      "real_power_watts": 4680.0,
+      "apparent_power_va": 4711.765,
+      "leg_a_amps": 20.515,
+      "leg_b_amps": 18.75,
+      "neutral_amps": 1.765,
+      "active_load_count": 2,
+      "high_power_loads": [
+        "Tank heating elements"
+      ]
+    },
+    {
+      "interval_index": 76,
+      "minute_of_day": 1140,
+      "day_type": "weekday",
+      "label": "19:00",
+      "real_power_watts": 4500.0,
+      "apparent_power_va": 4500.0,
+      "leg_a_amps": 18.75,
+      "leg_b_amps": 18.75,
+      "neutral_amps": 0.0,
+      "active_load_count": 1,
+      "high_power_loads": [
+        "Tank heating elements"
+      ]
+    },
+    {
+      "interval_index": 77,
+      "minute_of_day": 1155,
+      "day_type": "weekday",
+      "label": "19:15",
+      "real_power_watts": 4500.0,
+      "apparent_power_va": 4500.0,
+      "leg_a_amps": 18.75,
+      "leg_b_amps": 18.75,
+      "neutral_amps": 0.0,
+      "active_load_count": 1,
+      "high_power_loads": [
+        "Tank heating elements"
+      ]
+    },
+    {
+      "interval_index": 78,
+      "minute_of_day": 1170,
+      "day_type": "weekday",
+      "label": "19:30",
+      "real_power_watts": 0.0,
+      "apparent_power_va": 0.0,
+      "leg_a_amps": 0.0,
+      "leg_b_amps": 0.0,
+      "neutral_amps": 0.0,
+      "active_load_count": 0,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 79,
+      "minute_of_day": 1185,
+      "day_type": "weekday",
+      "label": "19:45",
+      "real_power_watts": 0.0,
+      "apparent_power_va": 0.0,
+      "leg_a_amps": 0.0,
+      "leg_b_amps": 0.0,
+      "neutral_amps": 0.0,
+      "active_load_count": 0,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 80,
+      "minute_of_day": 1200,
+      "day_type": "weekday",
+      "label": "20:00",
+      "real_power_watts": 0.0,
+      "apparent_power_va": 0.0,
+      "leg_a_amps": 0.0,
+      "leg_b_amps": 0.0,
+      "neutral_amps": 0.0,
+      "active_load_count": 0,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 81,
+      "minute_of_day": 1215,
+      "day_type": "weekday",
+      "label": "20:15",
+      "real_power_watts": 0.0,
+      "apparent_power_va": 0.0,
+      "leg_a_amps": 0.0,
+      "leg_b_amps": 0.0,
+      "neutral_amps": 0.0,
+      "active_load_count": 0,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 82,
+      "minute_of_day": 1230,
+      "day_type": "weekday",
+      "label": "20:30",
+      "real_power_watts": 0.0,
+      "apparent_power_va": 0.0,
+      "leg_a_amps": 0.0,
+      "leg_b_amps": 0.0,
+      "neutral_amps": 0.0,
+      "active_load_count": 0,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 83,
+      "minute_of_day": 1245,
+      "day_type": "weekday",
+      "label": "20:45",
+      "real_power_watts": 0.0,
+      "apparent_power_va": 0.0,
+      "leg_a_amps": 0.0,
+      "leg_b_amps": 0.0,
+      "neutral_amps": 0.0,
+      "active_load_count": 0,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 84,
+      "minute_of_day": 1260,
+      "day_type": "weekday",
+      "label": "21:00",
+      "real_power_watts": 180.0,
+      "apparent_power_va": 211.765,
+      "leg_a_amps": 1.765,
+      "leg_b_amps": 0.0,
+      "neutral_amps": 1.765,
+      "active_load_count": 1,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 85,
+      "minute_of_day": 1275,
+      "day_type": "weekday",
+      "label": "21:15",
+      "real_power_watts": 180.0,
+      "apparent_power_va": 211.765,
+      "leg_a_amps": 1.765,
+      "leg_b_amps": 0.0,
+      "neutral_amps": 1.765,
+      "active_load_count": 1,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 86,
+      "minute_of_day": 1290,
+      "day_type": "weekday",
+      "label": "21:30",
+      "real_power_watts": 180.0,
+      "apparent_power_va": 211.765,
+      "leg_a_amps": 1.765,
+      "leg_b_amps": 0.0,
+      "neutral_amps": 1.765,
+      "active_load_count": 1,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 87,
+      "minute_of_day": 1305,
+      "day_type": "weekday",
+      "label": "21:45",
+      "real_power_watts": 180.0,
+      "apparent_power_va": 211.765,
+      "leg_a_amps": 1.765,
+      "leg_b_amps": 0.0,
+      "neutral_amps": 1.765,
+      "active_load_count": 1,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 88,
+      "minute_of_day": 1320,
+      "day_type": "weekday",
+      "label": "22:00",
+      "real_power_watts": 0.0,
+      "apparent_power_va": 0.0,
+      "leg_a_amps": 0.0,
+      "leg_b_amps": 0.0,
+      "neutral_amps": 0.0,
+      "active_load_count": 0,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 89,
+      "minute_of_day": 1335,
+      "day_type": "weekday",
+      "label": "22:15",
+      "real_power_watts": 0.0,
+      "apparent_power_va": 0.0,
+      "leg_a_amps": 0.0,
+      "leg_b_amps": 0.0,
+      "neutral_amps": 0.0,
+      "active_load_count": 0,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 90,
+      "minute_of_day": 1350,
+      "day_type": "weekday",
+      "label": "22:30",
+      "real_power_watts": 0.0,
+      "apparent_power_va": 0.0,
+      "leg_a_amps": 0.0,
+      "leg_b_amps": 0.0,
+      "neutral_amps": 0.0,
+      "active_load_count": 0,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 91,
+      "minute_of_day": 1365,
+      "day_type": "weekday",
+      "label": "22:45",
+      "real_power_watts": 0.0,
+      "apparent_power_va": 0.0,
+      "leg_a_amps": 0.0,
+      "leg_b_amps": 0.0,
+      "neutral_amps": 0.0,
+      "active_load_count": 0,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 92,
+      "minute_of_day": 1380,
+      "day_type": "weekday",
+      "label": "23:00",
+      "real_power_watts": 0.0,
+      "apparent_power_va": 0.0,
+      "leg_a_amps": 0.0,
+      "leg_b_amps": 0.0,
+      "neutral_amps": 0.0,
+      "active_load_count": 0,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 93,
+      "minute_of_day": 1395,
+      "day_type": "weekday",
+      "label": "23:15",
+      "real_power_watts": 0.0,
+      "apparent_power_va": 0.0,
+      "leg_a_amps": 0.0,
+      "leg_b_amps": 0.0,
+      "neutral_amps": 0.0,
+      "active_load_count": 0,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 94,
+      "minute_of_day": 1410,
+      "day_type": "weekday",
+      "label": "23:30",
+      "real_power_watts": 0.0,
+      "apparent_power_va": 0.0,
+      "leg_a_amps": 0.0,
+      "leg_b_amps": 0.0,
+      "neutral_amps": 0.0,
+      "active_load_count": 0,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 95,
+      "minute_of_day": 1425,
+      "day_type": "weekday",
+      "label": "23:45",
+      "real_power_watts": 0.0,
+      "apparent_power_va": 0.0,
+      "leg_a_amps": 0.0,
+      "leg_b_amps": 0.0,
+      "neutral_amps": 0.0,
+      "active_load_count": 0,
+      "high_power_loads": []
+    }
+  ],
+  "weekend_demand": [
+    {
+      "interval_index": 0,
+      "minute_of_day": 0,
+      "day_type": "weekend",
+      "label": "00:00",
+      "real_power_watts": 180.0,
+      "apparent_power_va": 211.765,
+      "leg_a_amps": 1.765,
+      "leg_b_amps": 0.0,
+      "neutral_amps": 1.765,
+      "active_load_count": 1,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 1,
+      "minute_of_day": 15,
+      "day_type": "weekend",
+      "label": "00:15",
+      "real_power_watts": 180.0,
+      "apparent_power_va": 211.765,
+      "leg_a_amps": 1.765,
+      "leg_b_amps": 0.0,
+      "neutral_amps": 1.765,
+      "active_load_count": 1,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 2,
+      "minute_of_day": 30,
+      "day_type": "weekend",
+      "label": "00:30",
+      "real_power_watts": 180.0,
+      "apparent_power_va": 211.765,
+      "leg_a_amps": 1.765,
+      "leg_b_amps": 0.0,
+      "neutral_amps": 1.765,
+      "active_load_count": 1,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 3,
+      "minute_of_day": 45,
+      "day_type": "weekend",
+      "label": "00:45",
+      "real_power_watts": 180.0,
+      "apparent_power_va": 211.765,
+      "leg_a_amps": 1.765,
+      "leg_b_amps": 0.0,
+      "neutral_amps": 1.765,
+      "active_load_count": 1,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 4,
+      "minute_of_day": 60,
+      "day_type": "weekend",
+      "label": "01:00",
+      "real_power_watts": 0.0,
+      "apparent_power_va": 0.0,
+      "leg_a_amps": 0.0,
+      "leg_b_amps": 0.0,
+      "neutral_amps": 0.0,
+      "active_load_count": 0,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 5,
+      "minute_of_day": 75,
+      "day_type": "weekend",
+      "label": "01:15",
+      "real_power_watts": 0.0,
+      "apparent_power_va": 0.0,
+      "leg_a_amps": 0.0,
+      "leg_b_amps": 0.0,
+      "neutral_amps": 0.0,
+      "active_load_count": 0,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 6,
+      "minute_of_day": 90,
+      "day_type": "weekend",
+      "label": "01:30",
+      "real_power_watts": 0.0,
+      "apparent_power_va": 0.0,
+      "leg_a_amps": 0.0,
+      "leg_b_amps": 0.0,
+      "neutral_amps": 0.0,
+      "active_load_count": 0,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 7,
+      "minute_of_day": 105,
+      "day_type": "weekend",
+      "label": "01:45",
+      "real_power_watts": 0.0,
+      "apparent_power_va": 0.0,
+      "leg_a_amps": 0.0,
+      "leg_b_amps": 0.0,
+      "neutral_amps": 0.0,
+      "active_load_count": 0,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 8,
+      "minute_of_day": 120,
+      "day_type": "weekend",
+      "label": "02:00",
+      "real_power_watts": 0.0,
+      "apparent_power_va": 0.0,
+      "leg_a_amps": 0.0,
+      "leg_b_amps": 0.0,
+      "neutral_amps": 0.0,
+      "active_load_count": 0,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 9,
+      "minute_of_day": 135,
+      "day_type": "weekend",
+      "label": "02:15",
+      "real_power_watts": 0.0,
+      "apparent_power_va": 0.0,
+      "leg_a_amps": 0.0,
+      "leg_b_amps": 0.0,
+      "neutral_amps": 0.0,
+      "active_load_count": 0,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 10,
+      "minute_of_day": 150,
+      "day_type": "weekend",
+      "label": "02:30",
+      "real_power_watts": 0.0,
+      "apparent_power_va": 0.0,
+      "leg_a_amps": 0.0,
+      "leg_b_amps": 0.0,
+      "neutral_amps": 0.0,
+      "active_load_count": 0,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 11,
+      "minute_of_day": 165,
+      "day_type": "weekend",
+      "label": "02:45",
+      "real_power_watts": 0.0,
+      "apparent_power_va": 0.0,
+      "leg_a_amps": 0.0,
+      "leg_b_amps": 0.0,
+      "neutral_amps": 0.0,
+      "active_load_count": 0,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 12,
+      "minute_of_day": 180,
+      "day_type": "weekend",
+      "label": "03:00",
+      "real_power_watts": 180.0,
+      "apparent_power_va": 211.765,
+      "leg_a_amps": 1.765,
+      "leg_b_amps": 0.0,
+      "neutral_amps": 1.765,
+      "active_load_count": 1,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 13,
+      "minute_of_day": 195,
+      "day_type": "weekend",
+      "label": "03:15",
+      "real_power_watts": 180.0,
+      "apparent_power_va": 211.765,
+      "leg_a_amps": 1.765,
+      "leg_b_amps": 0.0,
+      "neutral_amps": 1.765,
+      "active_load_count": 1,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 14,
+      "minute_of_day": 210,
+      "day_type": "weekend",
+      "label": "03:30",
+      "real_power_watts": 180.0,
+      "apparent_power_va": 211.765,
+      "leg_a_amps": 1.765,
+      "leg_b_amps": 0.0,
+      "neutral_amps": 1.765,
+      "active_load_count": 1,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 15,
+      "minute_of_day": 225,
+      "day_type": "weekend",
+      "label": "03:45",
+      "real_power_watts": 180.0,
+      "apparent_power_va": 211.765,
+      "leg_a_amps": 1.765,
+      "leg_b_amps": 0.0,
+      "neutral_amps": 1.765,
+      "active_load_count": 1,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 16,
+      "minute_of_day": 240,
+      "day_type": "weekend",
+      "label": "04:00",
+      "real_power_watts": 0.0,
+      "apparent_power_va": 0.0,
+      "leg_a_amps": 0.0,
+      "leg_b_amps": 0.0,
+      "neutral_amps": 0.0,
+      "active_load_count": 0,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 17,
+      "minute_of_day": 255,
+      "day_type": "weekend",
+      "label": "04:15",
+      "real_power_watts": 0.0,
+      "apparent_power_va": 0.0,
+      "leg_a_amps": 0.0,
+      "leg_b_amps": 0.0,
+      "neutral_amps": 0.0,
+      "active_load_count": 0,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 18,
+      "minute_of_day": 270,
+      "day_type": "weekend",
+      "label": "04:30",
+      "real_power_watts": 0.0,
+      "apparent_power_va": 0.0,
+      "leg_a_amps": 0.0,
+      "leg_b_amps": 0.0,
+      "neutral_amps": 0.0,
+      "active_load_count": 0,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 19,
+      "minute_of_day": 285,
+      "day_type": "weekend",
+      "label": "04:45",
+      "real_power_watts": 0.0,
+      "apparent_power_va": 0.0,
+      "leg_a_amps": 0.0,
+      "leg_b_amps": 0.0,
+      "neutral_amps": 0.0,
+      "active_load_count": 0,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 20,
+      "minute_of_day": 300,
+      "day_type": "weekend",
+      "label": "05:00",
+      "real_power_watts": 0.0,
+      "apparent_power_va": 0.0,
+      "leg_a_amps": 0.0,
+      "leg_b_amps": 0.0,
+      "neutral_amps": 0.0,
+      "active_load_count": 0,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 21,
+      "minute_of_day": 315,
+      "day_type": "weekend",
+      "label": "05:15",
+      "real_power_watts": 0.0,
+      "apparent_power_va": 0.0,
+      "leg_a_amps": 0.0,
+      "leg_b_amps": 0.0,
+      "neutral_amps": 0.0,
+      "active_load_count": 0,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 22,
+      "minute_of_day": 330,
+      "day_type": "weekend",
+      "label": "05:30",
+      "real_power_watts": 0.0,
+      "apparent_power_va": 0.0,
+      "leg_a_amps": 0.0,
+      "leg_b_amps": 0.0,
+      "neutral_amps": 0.0,
+      "active_load_count": 0,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 23,
+      "minute_of_day": 345,
+      "day_type": "weekend",
+      "label": "05:45",
+      "real_power_watts": 0.0,
+      "apparent_power_va": 0.0,
+      "leg_a_amps": 0.0,
+      "leg_b_amps": 0.0,
+      "neutral_amps": 0.0,
+      "active_load_count": 0,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 24,
+      "minute_of_day": 360,
+      "day_type": "weekend",
+      "label": "06:00",
+      "real_power_watts": 4680.0,
+      "apparent_power_va": 4711.765,
+      "leg_a_amps": 20.515,
+      "leg_b_amps": 18.75,
+      "neutral_amps": 1.765,
+      "active_load_count": 2,
+      "high_power_loads": [
+        "Tank heating elements"
+      ]
+    },
+    {
+      "interval_index": 25,
+      "minute_of_day": 375,
+      "day_type": "weekend",
+      "label": "06:15",
+      "real_power_watts": 4680.0,
+      "apparent_power_va": 4711.765,
+      "leg_a_amps": 20.515,
+      "leg_b_amps": 18.75,
+      "neutral_amps": 1.765,
+      "active_load_count": 2,
+      "high_power_loads": [
+        "Tank heating elements"
+      ]
+    },
+    {
+      "interval_index": 26,
+      "minute_of_day": 390,
+      "day_type": "weekend",
+      "label": "06:30",
+      "real_power_watts": 4680.0,
+      "apparent_power_va": 4711.765,
+      "leg_a_amps": 20.515,
+      "leg_b_amps": 18.75,
+      "neutral_amps": 1.765,
+      "active_load_count": 2,
+      "high_power_loads": [
+        "Tank heating elements"
+      ]
+    },
+    {
+      "interval_index": 27,
+      "minute_of_day": 405,
+      "day_type": "weekend",
+      "label": "06:45",
+      "real_power_watts": 4680.0,
+      "apparent_power_va": 4711.765,
+      "leg_a_amps": 20.515,
+      "leg_b_amps": 18.75,
+      "neutral_amps": 1.765,
+      "active_load_count": 2,
+      "high_power_loads": [
+        "Tank heating elements"
+      ]
+    },
+    {
+      "interval_index": 28,
+      "minute_of_day": 420,
+      "day_type": "weekend",
+      "label": "07:00",
+      "real_power_watts": 4500.0,
+      "apparent_power_va": 4500.0,
+      "leg_a_amps": 18.75,
+      "leg_b_amps": 18.75,
+      "neutral_amps": 0.0,
+      "active_load_count": 1,
+      "high_power_loads": [
+        "Tank heating elements"
+      ]
+    },
+    {
+      "interval_index": 29,
+      "minute_of_day": 435,
+      "day_type": "weekend",
+      "label": "07:15",
+      "real_power_watts": 4500.0,
+      "apparent_power_va": 4500.0,
+      "leg_a_amps": 18.75,
+      "leg_b_amps": 18.75,
+      "neutral_amps": 0.0,
+      "active_load_count": 1,
+      "high_power_loads": [
+        "Tank heating elements"
+      ]
+    },
+    {
+      "interval_index": 30,
+      "minute_of_day": 450,
+      "day_type": "weekend",
+      "label": "07:30",
+      "real_power_watts": 0.0,
+      "apparent_power_va": 0.0,
+      "leg_a_amps": 0.0,
+      "leg_b_amps": 0.0,
+      "neutral_amps": 0.0,
+      "active_load_count": 0,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 31,
+      "minute_of_day": 465,
+      "day_type": "weekend",
+      "label": "07:45",
+      "real_power_watts": 0.0,
+      "apparent_power_va": 0.0,
+      "leg_a_amps": 0.0,
+      "leg_b_amps": 0.0,
+      "neutral_amps": 0.0,
+      "active_load_count": 0,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 32,
+      "minute_of_day": 480,
+      "day_type": "weekend",
+      "label": "08:00",
+      "real_power_watts": 1100.0,
+      "apparent_power_va": 1100.0,
+      "leg_a_amps": 9.167,
+      "leg_b_amps": 0.0,
+      "neutral_amps": 9.167,
+      "active_load_count": 1,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 33,
+      "minute_of_day": 495,
+      "day_type": "weekend",
+      "label": "08:15",
+      "real_power_watts": 1100.0,
+      "apparent_power_va": 1100.0,
+      "leg_a_amps": 9.167,
+      "leg_b_amps": 0.0,
+      "neutral_amps": 9.167,
+      "active_load_count": 1,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 34,
+      "minute_of_day": 510,
+      "day_type": "weekend",
+      "label": "08:30",
+      "real_power_watts": 0.0,
+      "apparent_power_va": 0.0,
+      "leg_a_amps": 0.0,
+      "leg_b_amps": 0.0,
+      "neutral_amps": 0.0,
+      "active_load_count": 0,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 35,
+      "minute_of_day": 525,
+      "day_type": "weekend",
+      "label": "08:45",
+      "real_power_watts": 0.0,
+      "apparent_power_va": 0.0,
+      "leg_a_amps": 0.0,
+      "leg_b_amps": 0.0,
+      "neutral_amps": 0.0,
+      "active_load_count": 0,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 36,
+      "minute_of_day": 540,
+      "day_type": "weekend",
+      "label": "09:00",
+      "real_power_watts": 180.0,
+      "apparent_power_va": 211.765,
+      "leg_a_amps": 1.765,
+      "leg_b_amps": 0.0,
+      "neutral_amps": 1.765,
+      "active_load_count": 1,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 37,
+      "minute_of_day": 555,
+      "day_type": "weekend",
+      "label": "09:15",
+      "real_power_watts": 180.0,
+      "apparent_power_va": 211.765,
+      "leg_a_amps": 1.765,
+      "leg_b_amps": 0.0,
+      "neutral_amps": 1.765,
+      "active_load_count": 1,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 38,
+      "minute_of_day": 570,
+      "day_type": "weekend",
+      "label": "09:30",
+      "real_power_watts": 180.0,
+      "apparent_power_va": 211.765,
+      "leg_a_amps": 1.765,
+      "leg_b_amps": 0.0,
+      "neutral_amps": 1.765,
+      "active_load_count": 1,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 39,
+      "minute_of_day": 585,
+      "day_type": "weekend",
+      "label": "09:45",
+      "real_power_watts": 180.0,
+      "apparent_power_va": 211.765,
+      "leg_a_amps": 1.765,
+      "leg_b_amps": 0.0,
+      "neutral_amps": 1.765,
+      "active_load_count": 1,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 40,
+      "minute_of_day": 600,
+      "day_type": "weekend",
+      "label": "10:00",
+      "real_power_watts": 1040.0,
+      "apparent_power_va": 1094.737,
+      "leg_a_amps": 0.0,
+      "leg_b_amps": 9.123,
+      "neutral_amps": 9.123,
+      "active_load_count": 2,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 41,
+      "minute_of_day": 615,
+      "day_type": "weekend",
+      "label": "10:15",
+      "real_power_watts": 1040.0,
+      "apparent_power_va": 1094.737,
+      "leg_a_amps": 0.0,
+      "leg_b_amps": 9.123,
+      "neutral_amps": 9.123,
+      "active_load_count": 2,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 42,
+      "minute_of_day": 630,
+      "day_type": "weekend",
+      "label": "10:30",
+      "real_power_watts": 1040.0,
+      "apparent_power_va": 1094.737,
+      "leg_a_amps": 0.0,
+      "leg_b_amps": 9.123,
+      "neutral_amps": 9.123,
+      "active_load_count": 2,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 43,
+      "minute_of_day": 645,
+      "day_type": "weekend",
+      "label": "10:45",
+      "real_power_watts": 1040.0,
+      "apparent_power_va": 1094.737,
+      "leg_a_amps": 0.0,
+      "leg_b_amps": 9.123,
+      "neutral_amps": 9.123,
+      "active_load_count": 2,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 44,
+      "minute_of_day": 660,
+      "day_type": "weekend",
+      "label": "11:00",
+      "real_power_watts": 5240.0,
+      "apparent_power_va": 5867.464,
+      "leg_a_amps": 19.886,
+      "leg_b_amps": 29.009,
+      "neutral_amps": 9.123,
+      "active_load_count": 3,
+      "high_power_loads": [
+        "HVAC compressor and blower"
+      ]
+    },
+    {
+      "interval_index": 45,
+      "minute_of_day": 675,
+      "day_type": "weekend",
+      "label": "11:15",
+      "real_power_watts": 5240.0,
+      "apparent_power_va": 5867.464,
+      "leg_a_amps": 19.886,
+      "leg_b_amps": 29.009,
+      "neutral_amps": 9.123,
+      "active_load_count": 3,
+      "high_power_loads": [
+        "HVAC compressor and blower"
+      ]
+    },
+    {
+      "interval_index": 46,
+      "minute_of_day": 690,
+      "day_type": "weekend",
+      "label": "11:30",
+      "real_power_watts": 5240.0,
+      "apparent_power_va": 5867.464,
+      "leg_a_amps": 19.886,
+      "leg_b_amps": 29.009,
+      "neutral_amps": 9.123,
+      "active_load_count": 3,
+      "high_power_loads": [
+        "HVAC compressor and blower"
+      ]
+    },
+    {
+      "interval_index": 47,
+      "minute_of_day": 705,
+      "day_type": "weekend",
+      "label": "11:45",
+      "real_power_watts": 5240.0,
+      "apparent_power_va": 5867.464,
+      "leg_a_amps": 19.886,
+      "leg_b_amps": 29.009,
+      "neutral_amps": 9.123,
+      "active_load_count": 3,
+      "high_power_loads": [
+        "HVAC compressor and blower"
+      ]
+    },
+    {
+      "interval_index": 48,
+      "minute_of_day": 720,
+      "day_type": "weekend",
+      "label": "12:00",
+      "real_power_watts": 4640.0,
+      "apparent_power_va": 5258.176,
+      "leg_a_amps": 21.651,
+      "leg_b_amps": 22.167,
+      "neutral_amps": 0.516,
+      "active_load_count": 3,
+      "high_power_loads": [
+        "HVAC compressor and blower"
+      ]
+    },
+    {
+      "interval_index": 49,
+      "minute_of_day": 735,
+      "day_type": "weekend",
+      "label": "12:15",
+      "real_power_watts": 4640.0,
+      "apparent_power_va": 5258.176,
+      "leg_a_amps": 21.651,
+      "leg_b_amps": 22.167,
+      "neutral_amps": 0.516,
+      "active_load_count": 3,
+      "high_power_loads": [
+        "HVAC compressor and blower"
+      ]
+    },
+    {
+      "interval_index": 50,
+      "minute_of_day": 750,
+      "day_type": "weekend",
+      "label": "12:30",
+      "real_power_watts": 4640.0,
+      "apparent_power_va": 5258.176,
+      "leg_a_amps": 21.651,
+      "leg_b_amps": 22.167,
+      "neutral_amps": 0.516,
+      "active_load_count": 3,
+      "high_power_loads": [
+        "HVAC compressor and blower"
+      ]
+    },
+    {
+      "interval_index": 51,
+      "minute_of_day": 765,
+      "day_type": "weekend",
+      "label": "12:45",
+      "real_power_watts": 4640.0,
+      "apparent_power_va": 5258.176,
+      "leg_a_amps": 21.651,
+      "leg_b_amps": 22.167,
+      "neutral_amps": 0.516,
+      "active_load_count": 3,
+      "high_power_loads": [
+        "HVAC compressor and blower"
+      ]
+    },
+    {
+      "interval_index": 52,
+      "minute_of_day": 780,
+      "day_type": "weekend",
+      "label": "13:00",
+      "real_power_watts": 4200.0,
+      "apparent_power_va": 4772.727,
+      "leg_a_amps": 19.886,
+      "leg_b_amps": 19.886,
+      "neutral_amps": 0.0,
+      "active_load_count": 1,
+      "high_power_loads": [
+        "HVAC compressor and blower"
+      ]
+    },
+    {
+      "interval_index": 53,
+      "minute_of_day": 795,
+      "day_type": "weekend",
+      "label": "13:15",
+      "real_power_watts": 4200.0,
+      "apparent_power_va": 4772.727,
+      "leg_a_amps": 19.886,
+      "leg_b_amps": 19.886,
+      "neutral_amps": 0.0,
+      "active_load_count": 1,
+      "high_power_loads": [
+        "HVAC compressor and blower"
+      ]
+    },
+    {
+      "interval_index": 54,
+      "minute_of_day": 810,
+      "day_type": "weekend",
+      "label": "13:30",
+      "real_power_watts": 4200.0,
+      "apparent_power_va": 4772.727,
+      "leg_a_amps": 19.886,
+      "leg_b_amps": 19.886,
+      "neutral_amps": 0.0,
+      "active_load_count": 1,
+      "high_power_loads": [
+        "HVAC compressor and blower"
+      ]
+    },
+    {
+      "interval_index": 55,
+      "minute_of_day": 825,
+      "day_type": "weekend",
+      "label": "13:45",
+      "real_power_watts": 4200.0,
+      "apparent_power_va": 4772.727,
+      "leg_a_amps": 19.886,
+      "leg_b_amps": 19.886,
+      "neutral_amps": 0.0,
+      "active_load_count": 1,
+      "high_power_loads": [
+        "HVAC compressor and blower"
+      ]
+    },
+    {
+      "interval_index": 56,
+      "minute_of_day": 840,
+      "day_type": "weekend",
+      "label": "14:00",
+      "real_power_watts": 9200.0,
+      "apparent_power_va": 10035.885,
+      "leg_a_amps": 41.816,
+      "leg_b_amps": 41.816,
+      "neutral_amps": 0.0,
+      "active_load_count": 2,
+      "high_power_loads": [
+        "Dryer heating and motor",
+        "HVAC compressor and blower"
+      ]
+    },
+    {
+      "interval_index": 57,
+      "minute_of_day": 855,
+      "day_type": "weekend",
+      "label": "14:15",
+      "real_power_watts": 9200.0,
+      "apparent_power_va": 10035.885,
+      "leg_a_amps": 41.816,
+      "leg_b_amps": 41.816,
+      "neutral_amps": 0.0,
+      "active_load_count": 2,
+      "high_power_loads": [
+        "Dryer heating and motor",
+        "HVAC compressor and blower"
+      ]
+    },
+    {
+      "interval_index": 58,
+      "minute_of_day": 870,
+      "day_type": "weekend",
+      "label": "14:30",
+      "real_power_watts": 9200.0,
+      "apparent_power_va": 10035.885,
+      "leg_a_amps": 41.816,
+      "leg_b_amps": 41.816,
+      "neutral_amps": 0.0,
+      "active_load_count": 2,
+      "high_power_loads": [
+        "Dryer heating and motor",
+        "HVAC compressor and blower"
+      ]
+    },
+    {
+      "interval_index": 59,
+      "minute_of_day": 885,
+      "day_type": "weekend",
+      "label": "14:45",
+      "real_power_watts": 9200.0,
+      "apparent_power_va": 10035.885,
+      "leg_a_amps": 41.816,
+      "leg_b_amps": 41.816,
+      "neutral_amps": 0.0,
+      "active_load_count": 2,
+      "high_power_loads": [
+        "Dryer heating and motor",
+        "HVAC compressor and blower"
+      ]
+    },
+    {
+      "interval_index": 60,
+      "minute_of_day": 900,
+      "day_type": "weekend",
+      "label": "15:00",
+      "real_power_watts": 4380.0,
+      "apparent_power_va": 4984.492,
+      "leg_a_amps": 21.651,
+      "leg_b_amps": 19.886,
+      "neutral_amps": 1.765,
+      "active_load_count": 2,
+      "high_power_loads": [
+        "HVAC compressor and blower"
+      ]
+    },
+    {
+      "interval_index": 61,
+      "minute_of_day": 915,
+      "day_type": "weekend",
+      "label": "15:15",
+      "real_power_watts": 4380.0,
+      "apparent_power_va": 4984.492,
+      "leg_a_amps": 21.651,
+      "leg_b_amps": 19.886,
+      "neutral_amps": 1.765,
+      "active_load_count": 2,
+      "high_power_loads": [
+        "HVAC compressor and blower"
+      ]
+    },
+    {
+      "interval_index": 62,
+      "minute_of_day": 930,
+      "day_type": "weekend",
+      "label": "15:30",
+      "real_power_watts": 4380.0,
+      "apparent_power_va": 4984.492,
+      "leg_a_amps": 21.651,
+      "leg_b_amps": 19.886,
+      "neutral_amps": 1.765,
+      "active_load_count": 2,
+      "high_power_loads": [
+        "HVAC compressor and blower"
+      ]
+    },
+    {
+      "interval_index": 63,
+      "minute_of_day": 945,
+      "day_type": "weekend",
+      "label": "15:45",
+      "real_power_watts": 4380.0,
+      "apparent_power_va": 4984.492,
+      "leg_a_amps": 21.651,
+      "leg_b_amps": 19.886,
+      "neutral_amps": 1.765,
+      "active_load_count": 2,
+      "high_power_loads": [
+        "HVAC compressor and blower"
+      ]
+    },
+    {
+      "interval_index": 64,
+      "minute_of_day": 960,
+      "day_type": "weekend",
+      "label": "16:00",
+      "real_power_watts": 4200.0,
+      "apparent_power_va": 4772.727,
+      "leg_a_amps": 19.886,
+      "leg_b_amps": 19.886,
+      "neutral_amps": 0.0,
+      "active_load_count": 1,
+      "high_power_loads": [
+        "HVAC compressor and blower"
+      ]
+    },
+    {
+      "interval_index": 65,
+      "minute_of_day": 975,
+      "day_type": "weekend",
+      "label": "16:15",
+      "real_power_watts": 4200.0,
+      "apparent_power_va": 4772.727,
+      "leg_a_amps": 19.886,
+      "leg_b_amps": 19.886,
+      "neutral_amps": 0.0,
+      "active_load_count": 1,
+      "high_power_loads": [
+        "HVAC compressor and blower"
+      ]
+    },
+    {
+      "interval_index": 66,
+      "minute_of_day": 990,
+      "day_type": "weekend",
+      "label": "16:30",
+      "real_power_watts": 4200.0,
+      "apparent_power_va": 4772.727,
+      "leg_a_amps": 19.886,
+      "leg_b_amps": 19.886,
+      "neutral_amps": 0.0,
+      "active_load_count": 1,
+      "high_power_loads": [
+        "HVAC compressor and blower"
+      ]
+    },
+    {
+      "interval_index": 67,
+      "minute_of_day": 1005,
+      "day_type": "weekend",
+      "label": "16:45",
+      "real_power_watts": 4200.0,
+      "apparent_power_va": 4772.727,
+      "leg_a_amps": 19.886,
+      "leg_b_amps": 19.886,
+      "neutral_amps": 0.0,
+      "active_load_count": 1,
+      "high_power_loads": [
+        "HVAC compressor and blower"
+      ]
+    },
+    {
+      "interval_index": 68,
+      "minute_of_day": 1020,
+      "day_type": "weekend",
+      "label": "17:00",
+      "real_power_watts": 4200.0,
+      "apparent_power_va": 4772.727,
+      "leg_a_amps": 19.886,
+      "leg_b_amps": 19.886,
+      "neutral_amps": 0.0,
+      "active_load_count": 1,
+      "high_power_loads": [
+        "HVAC compressor and blower"
+      ]
+    },
+    {
+      "interval_index": 69,
+      "minute_of_day": 1035,
+      "day_type": "weekend",
+      "label": "17:15",
+      "real_power_watts": 4200.0,
+      "apparent_power_va": 4772.727,
+      "leg_a_amps": 19.886,
+      "leg_b_amps": 19.886,
+      "neutral_amps": 0.0,
+      "active_load_count": 1,
+      "high_power_loads": [
+        "HVAC compressor and blower"
+      ]
+    },
+    {
+      "interval_index": 70,
+      "minute_of_day": 1050,
+      "day_type": "weekend",
+      "label": "17:30",
+      "real_power_watts": 4200.0,
+      "apparent_power_va": 4772.727,
+      "leg_a_amps": 19.886,
+      "leg_b_amps": 19.886,
+      "neutral_amps": 0.0,
+      "active_load_count": 1,
+      "high_power_loads": [
+        "HVAC compressor and blower"
+      ]
+    },
+    {
+      "interval_index": 71,
+      "minute_of_day": 1065,
+      "day_type": "weekend",
+      "label": "17:45",
+      "real_power_watts": 4200.0,
+      "apparent_power_va": 4772.727,
+      "leg_a_amps": 19.886,
+      "leg_b_amps": 19.886,
+      "neutral_amps": 0.0,
+      "active_load_count": 1,
+      "high_power_loads": [
+        "HVAC compressor and blower"
+      ]
+    },
+    {
+      "interval_index": 72,
+      "minute_of_day": 1080,
+      "day_type": "weekend",
+      "label": "18:00",
+      "real_power_watts": 8880.0,
+      "apparent_power_va": 9484.492,
+      "leg_a_amps": 40.401,
+      "leg_b_amps": 38.636,
+      "neutral_amps": 1.765,
+      "active_load_count": 3,
+      "high_power_loads": [
+        "Tank heating elements",
+        "HVAC compressor and blower"
+      ]
+    },
+    {
+      "interval_index": 73,
+      "minute_of_day": 1095,
+      "day_type": "weekend",
+      "label": "18:15",
+      "real_power_watts": 8880.0,
+      "apparent_power_va": 9484.492,
+      "leg_a_amps": 40.401,
+      "leg_b_amps": 38.636,
+      "neutral_amps": 1.765,
+      "active_load_count": 3,
+      "high_power_loads": [
+        "Tank heating elements",
+        "HVAC compressor and blower"
+      ]
+    },
+    {
+      "interval_index": 74,
+      "minute_of_day": 1110,
+      "day_type": "weekend",
+      "label": "18:30",
+      "real_power_watts": 8880.0,
+      "apparent_power_va": 9484.492,
+      "leg_a_amps": 40.401,
+      "leg_b_amps": 38.636,
+      "neutral_amps": 1.765,
+      "active_load_count": 3,
+      "high_power_loads": [
+        "Tank heating elements",
+        "HVAC compressor and blower"
+      ]
+    },
+    {
+      "interval_index": 75,
+      "minute_of_day": 1125,
+      "day_type": "weekend",
+      "label": "18:45",
+      "real_power_watts": 8880.0,
+      "apparent_power_va": 9484.492,
+      "leg_a_amps": 40.401,
+      "leg_b_amps": 38.636,
+      "neutral_amps": 1.765,
+      "active_load_count": 3,
+      "high_power_loads": [
+        "Tank heating elements",
+        "HVAC compressor and blower"
+      ]
+    },
+    {
+      "interval_index": 76,
+      "minute_of_day": 1140,
+      "day_type": "weekend",
+      "label": "19:00",
+      "real_power_watts": 4500.0,
+      "apparent_power_va": 4500.0,
+      "leg_a_amps": 18.75,
+      "leg_b_amps": 18.75,
+      "neutral_amps": 0.0,
+      "active_load_count": 1,
+      "high_power_loads": [
+        "Tank heating elements"
+      ]
+    },
+    {
+      "interval_index": 77,
+      "minute_of_day": 1155,
+      "day_type": "weekend",
+      "label": "19:15",
+      "real_power_watts": 4500.0,
+      "apparent_power_va": 4500.0,
+      "leg_a_amps": 18.75,
+      "leg_b_amps": 18.75,
+      "neutral_amps": 0.0,
+      "active_load_count": 1,
+      "high_power_loads": [
+        "Tank heating elements"
+      ]
+    },
+    {
+      "interval_index": 78,
+      "minute_of_day": 1170,
+      "day_type": "weekend",
+      "label": "19:30",
+      "real_power_watts": 0.0,
+      "apparent_power_va": 0.0,
+      "leg_a_amps": 0.0,
+      "leg_b_amps": 0.0,
+      "neutral_amps": 0.0,
+      "active_load_count": 0,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 79,
+      "minute_of_day": 1185,
+      "day_type": "weekend",
+      "label": "19:45",
+      "real_power_watts": 0.0,
+      "apparent_power_va": 0.0,
+      "leg_a_amps": 0.0,
+      "leg_b_amps": 0.0,
+      "neutral_amps": 0.0,
+      "active_load_count": 0,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 80,
+      "minute_of_day": 1200,
+      "day_type": "weekend",
+      "label": "20:00",
+      "real_power_watts": 0.0,
+      "apparent_power_va": 0.0,
+      "leg_a_amps": 0.0,
+      "leg_b_amps": 0.0,
+      "neutral_amps": 0.0,
+      "active_load_count": 0,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 81,
+      "minute_of_day": 1215,
+      "day_type": "weekend",
+      "label": "20:15",
+      "real_power_watts": 0.0,
+      "apparent_power_va": 0.0,
+      "leg_a_amps": 0.0,
+      "leg_b_amps": 0.0,
+      "neutral_amps": 0.0,
+      "active_load_count": 0,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 82,
+      "minute_of_day": 1230,
+      "day_type": "weekend",
+      "label": "20:30",
+      "real_power_watts": 0.0,
+      "apparent_power_va": 0.0,
+      "leg_a_amps": 0.0,
+      "leg_b_amps": 0.0,
+      "neutral_amps": 0.0,
+      "active_load_count": 0,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 83,
+      "minute_of_day": 1245,
+      "day_type": "weekend",
+      "label": "20:45",
+      "real_power_watts": 0.0,
+      "apparent_power_va": 0.0,
+      "leg_a_amps": 0.0,
+      "leg_b_amps": 0.0,
+      "neutral_amps": 0.0,
+      "active_load_count": 0,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 84,
+      "minute_of_day": 1260,
+      "day_type": "weekend",
+      "label": "21:00",
+      "real_power_watts": 180.0,
+      "apparent_power_va": 211.765,
+      "leg_a_amps": 1.765,
+      "leg_b_amps": 0.0,
+      "neutral_amps": 1.765,
+      "active_load_count": 1,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 85,
+      "minute_of_day": 1275,
+      "day_type": "weekend",
+      "label": "21:15",
+      "real_power_watts": 180.0,
+      "apparent_power_va": 211.765,
+      "leg_a_amps": 1.765,
+      "leg_b_amps": 0.0,
+      "neutral_amps": 1.765,
+      "active_load_count": 1,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 86,
+      "minute_of_day": 1290,
+      "day_type": "weekend",
+      "label": "21:30",
+      "real_power_watts": 180.0,
+      "apparent_power_va": 211.765,
+      "leg_a_amps": 1.765,
+      "leg_b_amps": 0.0,
+      "neutral_amps": 1.765,
+      "active_load_count": 1,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 87,
+      "minute_of_day": 1305,
+      "day_type": "weekend",
+      "label": "21:45",
+      "real_power_watts": 180.0,
+      "apparent_power_va": 211.765,
+      "leg_a_amps": 1.765,
+      "leg_b_amps": 0.0,
+      "neutral_amps": 1.765,
+      "active_load_count": 1,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 88,
+      "minute_of_day": 1320,
+      "day_type": "weekend",
+      "label": "22:00",
+      "real_power_watts": 0.0,
+      "apparent_power_va": 0.0,
+      "leg_a_amps": 0.0,
+      "leg_b_amps": 0.0,
+      "neutral_amps": 0.0,
+      "active_load_count": 0,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 89,
+      "minute_of_day": 1335,
+      "day_type": "weekend",
+      "label": "22:15",
+      "real_power_watts": 0.0,
+      "apparent_power_va": 0.0,
+      "leg_a_amps": 0.0,
+      "leg_b_amps": 0.0,
+      "neutral_amps": 0.0,
+      "active_load_count": 0,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 90,
+      "minute_of_day": 1350,
+      "day_type": "weekend",
+      "label": "22:30",
+      "real_power_watts": 0.0,
+      "apparent_power_va": 0.0,
+      "leg_a_amps": 0.0,
+      "leg_b_amps": 0.0,
+      "neutral_amps": 0.0,
+      "active_load_count": 0,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 91,
+      "minute_of_day": 1365,
+      "day_type": "weekend",
+      "label": "22:45",
+      "real_power_watts": 0.0,
+      "apparent_power_va": 0.0,
+      "leg_a_amps": 0.0,
+      "leg_b_amps": 0.0,
+      "neutral_amps": 0.0,
+      "active_load_count": 0,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 92,
+      "minute_of_day": 1380,
+      "day_type": "weekend",
+      "label": "23:00",
+      "real_power_watts": 0.0,
+      "apparent_power_va": 0.0,
+      "leg_a_amps": 0.0,
+      "leg_b_amps": 0.0,
+      "neutral_amps": 0.0,
+      "active_load_count": 0,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 93,
+      "minute_of_day": 1395,
+      "day_type": "weekend",
+      "label": "23:15",
+      "real_power_watts": 0.0,
+      "apparent_power_va": 0.0,
+      "leg_a_amps": 0.0,
+      "leg_b_amps": 0.0,
+      "neutral_amps": 0.0,
+      "active_load_count": 0,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 94,
+      "minute_of_day": 1410,
+      "day_type": "weekend",
+      "label": "23:30",
+      "real_power_watts": 0.0,
+      "apparent_power_va": 0.0,
+      "leg_a_amps": 0.0,
+      "leg_b_amps": 0.0,
+      "neutral_amps": 0.0,
+      "active_load_count": 0,
+      "high_power_loads": []
+    },
+    {
+      "interval_index": 95,
+      "minute_of_day": 1425,
+      "day_type": "weekend",
+      "label": "23:45",
+      "real_power_watts": 0.0,
+      "apparent_power_va": 0.0,
+      "leg_a_amps": 0.0,
+      "leg_b_amps": 0.0,
+      "neutral_amps": 0.0,
+      "active_load_count": 0,
+      "high_power_loads": []
+    }
+  ],
+  "transient_events": [
+    {
+      "day_type": "weekday",
+      "minute_of_day": 0,
+      "label": "00:00",
+      "circuit_id": "ff33c545792544f0aa250bc56cb14e43",
+      "circuit_name": "Kitchen small appliances",
+      "load_names": [
+        "Refrigerator"
+      ],
+      "running_amps_before_inrush": 1.765,
+      "transient_current_amps": 7.059,
+      "breaker_rating": 20,
+      "duration_seconds": 1.0,
+      "advisory": false
+    },
+    {
+      "day_type": "weekday",
+      "minute_of_day": 180,
+      "label": "03:00",
+      "circuit_id": "ff33c545792544f0aa250bc56cb14e43",
+      "circuit_name": "Kitchen small appliances",
+      "load_names": [
+        "Refrigerator"
+      ],
+      "running_amps_before_inrush": 1.765,
+      "transient_current_amps": 7.059,
+      "breaker_rating": 20,
+      "duration_seconds": 1.0,
+      "advisory": false
+    },
+    {
+      "day_type": "weekday",
+      "minute_of_day": 360,
+      "label": "06:00",
+      "circuit_id": "ff33c545792544f0aa250bc56cb14e43",
+      "circuit_name": "Kitchen small appliances",
+      "load_names": [
+        "Refrigerator"
+      ],
+      "running_amps_before_inrush": 1.765,
+      "transient_current_amps": 7.059,
+      "breaker_rating": 20,
+      "duration_seconds": 1.0,
+      "advisory": false
+    },
+    {
+      "day_type": "weekday",
+      "minute_of_day": 540,
+      "label": "09:00",
+      "circuit_id": "ff33c545792544f0aa250bc56cb14e43",
+      "circuit_name": "Kitchen small appliances",
+      "load_names": [
+        "Refrigerator"
+      ],
+      "running_amps_before_inrush": 1.765,
+      "transient_current_amps": 7.059,
+      "breaker_rating": 20,
+      "duration_seconds": 1.0,
+      "advisory": false
+    },
+    {
+      "day_type": "weekday",
+      "minute_of_day": 720,
+      "label": "12:00",
+      "circuit_id": "ff33c545792544f0aa250bc56cb14e43",
+      "circuit_name": "Kitchen small appliances",
+      "load_names": [
+        "Refrigerator"
+      ],
+      "running_amps_before_inrush": 1.765,
+      "transient_current_amps": 7.059,
+      "breaker_rating": 20,
+      "duration_seconds": 1.0,
+      "advisory": false
+    },
+    {
+      "day_type": "weekday",
+      "minute_of_day": 900,
+      "label": "15:00",
+      "circuit_id": "ff33c545792544f0aa250bc56cb14e43",
+      "circuit_name": "Kitchen small appliances",
+      "load_names": [
+        "Refrigerator"
+      ],
+      "running_amps_before_inrush": 1.765,
+      "transient_current_amps": 7.059,
+      "breaker_rating": 20,
+      "duration_seconds": 1.0,
+      "advisory": false
+    },
+    {
+      "day_type": "weekday",
+      "minute_of_day": 1080,
+      "label": "18:00",
+      "circuit_id": "ff33c545792544f0aa250bc56cb14e43",
+      "circuit_name": "Kitchen small appliances",
+      "load_names": [
+        "Refrigerator"
+      ],
+      "running_amps_before_inrush": 1.765,
+      "transient_current_amps": 7.059,
+      "breaker_rating": 20,
+      "duration_seconds": 1.0,
+      "advisory": false
+    },
+    {
+      "day_type": "weekday",
+      "minute_of_day": 1260,
+      "label": "21:00",
+      "circuit_id": "ff33c545792544f0aa250bc56cb14e43",
+      "circuit_name": "Kitchen small appliances",
+      "load_names": [
+        "Refrigerator"
+      ],
+      "running_amps_before_inrush": 1.765,
+      "transient_current_amps": 7.059,
+      "breaker_rating": 20,
+      "duration_seconds": 1.0,
+      "advisory": false
+    },
+    {
+      "day_type": "weekend",
+      "minute_of_day": 0,
+      "label": "00:00",
+      "circuit_id": "ff33c545792544f0aa250bc56cb14e43",
+      "circuit_name": "Kitchen small appliances",
+      "load_names": [
+        "Refrigerator"
+      ],
+      "running_amps_before_inrush": 1.765,
+      "transient_current_amps": 7.059,
+      "breaker_rating": 20,
+      "duration_seconds": 1.0,
+      "advisory": false
+    },
+    {
+      "day_type": "weekend",
+      "minute_of_day": 180,
+      "label": "03:00",
+      "circuit_id": "ff33c545792544f0aa250bc56cb14e43",
+      "circuit_name": "Kitchen small appliances",
+      "load_names": [
+        "Refrigerator"
+      ],
+      "running_amps_before_inrush": 1.765,
+      "transient_current_amps": 7.059,
+      "breaker_rating": 20,
+      "duration_seconds": 1.0,
+      "advisory": false
+    },
+    {
+      "day_type": "weekend",
+      "minute_of_day": 360,
+      "label": "06:00",
+      "circuit_id": "ff33c545792544f0aa250bc56cb14e43",
+      "circuit_name": "Kitchen small appliances",
+      "load_names": [
+        "Refrigerator"
+      ],
+      "running_amps_before_inrush": 1.765,
+      "transient_current_amps": 7.059,
+      "breaker_rating": 20,
+      "duration_seconds": 1.0,
+      "advisory": false
+    },
+    {
+      "day_type": "weekend",
+      "minute_of_day": 540,
+      "label": "09:00",
+      "circuit_id": "ff33c545792544f0aa250bc56cb14e43",
+      "circuit_name": "Kitchen small appliances",
+      "load_names": [
+        "Refrigerator"
+      ],
+      "running_amps_before_inrush": 1.765,
+      "transient_current_amps": 7.059,
+      "breaker_rating": 20,
+      "duration_seconds": 1.0,
+      "advisory": false
+    },
+    {
+      "day_type": "weekend",
+      "minute_of_day": 720,
+      "label": "12:00",
+      "circuit_id": "ff33c545792544f0aa250bc56cb14e43",
+      "circuit_name": "Kitchen small appliances",
+      "load_names": [
+        "Refrigerator"
+      ],
+      "running_amps_before_inrush": 1.765,
+      "transient_current_amps": 7.059,
+      "breaker_rating": 20,
+      "duration_seconds": 1.0,
+      "advisory": false
+    },
+    {
+      "day_type": "weekend",
+      "minute_of_day": 900,
+      "label": "15:00",
+      "circuit_id": "ff33c545792544f0aa250bc56cb14e43",
+      "circuit_name": "Kitchen small appliances",
+      "load_names": [
+        "Refrigerator"
+      ],
+      "running_amps_before_inrush": 1.765,
+      "transient_current_amps": 7.059,
+      "breaker_rating": 20,
+      "duration_seconds": 1.0,
+      "advisory": false
+    },
+    {
+      "day_type": "weekend",
+      "minute_of_day": 1080,
+      "label": "18:00",
+      "circuit_id": "ff33c545792544f0aa250bc56cb14e43",
+      "circuit_name": "Kitchen small appliances",
+      "load_names": [
+        "Refrigerator"
+      ],
+      "running_amps_before_inrush": 1.765,
+      "transient_current_amps": 7.059,
+      "breaker_rating": 20,
+      "duration_seconds": 1.0,
+      "advisory": false
+    },
+    {
+      "day_type": "weekend",
+      "minute_of_day": 1260,
+      "label": "21:00",
+      "circuit_id": "ff33c545792544f0aa250bc56cb14e43",
+      "circuit_name": "Kitchen small appliances",
+      "load_names": [
+        "Refrigerator"
+      ],
+      "running_amps_before_inrush": 1.765,
+      "transient_current_amps": 7.059,
+      "breaker_rating": 20,
+      "duration_seconds": 1.0,
+      "advisory": false
+    },
+    {
+      "day_type": "weekday",
+      "minute_of_day": 480,
+      "label": "08:00",
+      "circuit_id": "8478f6fa9a494fccb8512d526f6264e3",
+      "circuit_name": "Home office",
+      "load_names": [
+        "Computer workstation",
+        "Monitors and network"
+      ],
+      "running_amps_before_inrush": 9.123,
+      "transient_current_amps": 10.719,
+      "breaker_rating": 15,
+      "duration_seconds": 0.2,
+      "advisory": false
+    },
+    {
+      "day_type": "weekday",
+      "minute_of_day": 780,
+      "label": "13:00",
+      "circuit_id": "8478f6fa9a494fccb8512d526f6264e3",
+      "circuit_name": "Home office",
+      "load_names": [
+        "Computer workstation",
+        "Monitors and network"
+      ],
+      "running_amps_before_inrush": 9.123,
+      "transient_current_amps": 10.719,
+      "breaker_rating": 15,
+      "duration_seconds": 0.2,
+      "advisory": false
+    },
+    {
+      "day_type": "weekend",
+      "minute_of_day": 600,
+      "label": "10:00",
+      "circuit_id": "8478f6fa9a494fccb8512d526f6264e3",
+      "circuit_name": "Home office",
+      "load_names": [
+        "Computer workstation",
+        "Monitors and network"
+      ],
+      "running_amps_before_inrush": 9.123,
+      "transient_current_amps": 10.719,
+      "breaker_rating": 15,
+      "duration_seconds": 0.2,
+      "advisory": false
+    },
+    {
+      "day_type": "weekday",
+      "minute_of_day": 1080,
+      "label": "18:00",
+      "circuit_id": "51d0291c02dd424792cfba01c9186875",
+      "circuit_name": "Electric dryer",
+      "load_names": [
+        "Dryer heating and motor"
+      ],
+      "running_amps_before_inrush": 21.93,
+      "transient_current_amps": 54.825,
+      "breaker_rating": 30,
+      "duration_seconds": 1.5,
+      "advisory": true
+    },
+    {
+      "day_type": "weekend",
+      "minute_of_day": 840,
+      "label": "14:00",
+      "circuit_id": "51d0291c02dd424792cfba01c9186875",
+      "circuit_name": "Electric dryer",
+      "load_names": [
+        "Dryer heating and motor"
+      ],
+      "running_amps_before_inrush": 21.93,
+      "transient_current_amps": 54.825,
+      "breaker_rating": 30,
+      "duration_seconds": 1.5,
+      "advisory": true
+    },
+    {
+      "day_type": "weekday",
+      "minute_of_day": 720,
+      "label": "12:00",
+      "circuit_id": "ee1f434ed7824038bdffc44bec385636",
+      "circuit_name": "Central air",
+      "load_names": [
+        "HVAC compressor and blower"
+      ],
+      "running_amps_before_inrush": 19.886,
+      "transient_current_amps": 69.602,
+      "breaker_rating": 40,
+      "duration_seconds": 0.8,
+      "advisory": true
+    },
+    {
+      "day_type": "weekend",
+      "minute_of_day": 660,
+      "label": "11:00",
+      "circuit_id": "ee1f434ed7824038bdffc44bec385636",
+      "circuit_name": "Central air",
+      "load_names": [
+        "HVAC compressor and blower"
+      ],
+      "running_amps_before_inrush": 19.886,
+      "transient_current_amps": 69.602,
+      "breaker_rating": 40,
+      "duration_seconds": 0.8,
+      "advisory": true
+    }
+  ],
+  "simultaneous_load_warnings": [
+    {
+      "day_type": "weekday",
+      "minute_of_day": 1080,
+      "label": "18:00",
+      "load_names": [
+        "Dryer heating and motor",
+        "Tank heating elements"
+      ],
+      "combined_watts": 9500.0
+    },
+    {
+      "day_type": "weekday",
+      "minute_of_day": 1095,
+      "label": "18:15",
+      "load_names": [
+        "Dryer heating and motor",
+        "Tank heating elements"
+      ],
+      "combined_watts": 9500.0
+    },
+    {
+      "day_type": "weekday",
+      "minute_of_day": 1110,
+      "label": "18:30",
+      "load_names": [
+        "Dryer heating and motor",
+        "Tank heating elements"
+      ],
+      "combined_watts": 9500.0
+    },
+    {
+      "day_type": "weekend",
+      "minute_of_day": 840,
+      "label": "14:00",
+      "load_names": [
+        "Dryer heating and motor",
+        "HVAC compressor and blower"
+      ],
+      "combined_watts": 9200.0
+    },
+    {
+      "day_type": "weekend",
+      "minute_of_day": 855,
+      "label": "14:15",
+      "load_names": [
+        "Dryer heating and motor",
+        "HVAC compressor and blower"
+      ],
+      "combined_watts": 9200.0
+    },
+    {
+      "day_type": "weekend",
+      "minute_of_day": 870,
+      "label": "14:30",
+      "load_names": [
+        "Dryer heating and motor",
+        "HVAC compressor and blower"
+      ],
+      "combined_watts": 9200.0
+    },
+    {
+      "day_type": "weekend",
+      "minute_of_day": 885,
+      "label": "14:45",
+      "load_names": [
+        "Dryer heating and motor",
+        "HVAC compressor and blower"
+      ],
+      "combined_watts": 9200.0
+    },
+    {
+      "day_type": "weekend",
+      "minute_of_day": 1080,
+      "label": "18:00",
+      "load_names": [
+        "Tank heating elements",
+        "HVAC compressor and blower"
+      ],
+      "combined_watts": 8700.0
+    },
+    {
+      "day_type": "weekend",
+      "minute_of_day": 1095,
+      "label": "18:15",
+      "load_names": [
+        "Tank heating elements",
+        "HVAC compressor and blower"
+      ],
+      "combined_watts": 8700.0
+    },
+    {
+      "day_type": "weekend",
+      "minute_of_day": 1110,
+      "label": "18:30",
+      "load_names": [
+        "Tank heating elements",
+        "HVAC compressor and blower"
+      ],
+      "combined_watts": 8700.0
+    },
+    {
+      "day_type": "weekend",
+      "minute_of_day": 1125,
+      "label": "18:45",
+      "load_names": [
+        "Tank heating elements",
+        "HVAC compressor and blower"
+      ],
+      "combined_watts": 8700.0
+    }
+  ]
+}
