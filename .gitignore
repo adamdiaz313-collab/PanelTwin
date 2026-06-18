@@ -27,3 +27,5 @@ frontend/.vite/
 Thumbs.db
 .idea/
 .vscode/
+
+.vercel

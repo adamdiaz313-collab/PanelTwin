@@ -1,4 +1,4 @@
-const API_BASE_URL = import.meta.env.VITE_API_URL ?? "/api";
+const API_BASE_URL = import.meta.env.VITE_API_URL ?? "/backend/api";
 const DEMO_MODE = import.meta.env.VITE_DEMO_MODE === "true";
 const DEMO_BASE_URL = `${import.meta.env.BASE_URL.replace(/\/$/, "")}/demo`;
 

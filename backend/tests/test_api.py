@@ -5,6 +5,7 @@ from fastapi.testclient import TestClient
 
 from app.main import create_app
 from app.models import PanelSettingsInput
+from app.postgres_store import PostgresConnection
 from app.store import PanelStore
 
 
@@ -287,3 +288,15 @@ def test_presets_include_periods_inrush_duration_and_quality(
     assert refrigerator["inrush_duration_seconds"] > 0
     assert len(refrigerator["weekday_periods"]) > 1
     assert refrigerator["data_quality"] == "Estimated"
+
+
+def test_postgres_adapter_translates_parameters_and_insertion_order() -> None:
+    sql = (
+        "SELECT * FROM homes WHERE id = ? "
+        "ORDER BY homes.rowid"
+    )
+
+    translated = PostgresConnection._translate_sql(sql)
+
+    assert "id = %s" in translated
+    assert "ORDER BY homes.created_order" in translated

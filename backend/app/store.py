@@ -50,6 +50,8 @@ class VoltageMismatchError(StoreError):
 
 
 class PanelStore:
+    storage_name = "sqlite"
+
     def __init__(self, database_path: str | Path | None = None) -> None:
         default_path = Path(__file__).resolve().parents[1] / "paneltwin.db"
         self.database_path = Path(

@@ -1,3 +1,4 @@
+import os
 from pathlib import Path
 
 from fastapi import FastAPI, HTTPException, Query, Request, Response, status
@@ -203,7 +204,13 @@ def create_app(database_path: str | Path | None = None) -> FastAPI:
         ),
         version="3.0.0",
     )
-    app.state.store = PanelStore(database_path)
+    database_url = os.getenv("DATABASE_URL")
+    if database_url and database_path is None:
+        from .postgres_store import PostgresPanelStore
+
+        app.state.store = PostgresPanelStore(database_url)
+    else:
+        app.state.store = PanelStore(database_path)
 
     app.add_middleware(
         CORSMiddleware,
@@ -216,7 +223,10 @@ def create_app(database_path: str | Path | None = None) -> FastAPI:
 
     @app.get("/health")
     def health_check() -> dict[str, str]:
-        return {"status": "ok", "storage": "sqlite"}
+        return {
+            "status": "ok",
+            "storage": app.state.store.storage_name,
+        }
 
     @app.get("/api/homes", response_model=list[Home])
     def list_homes(request: Request) -> list[Home]:

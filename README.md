@@ -1,9 +1,9 @@
 # PanelTwin
 
 PanelTwin is a focused residential electrical panel digital twin built with
-React, Vite, FastAPI, and SQLite. This release improves electrical accuracy,
-time resolution, scheduling, and input traceability without adding unrelated
-production features.
+React, Vite, FastAPI, SQLite, and PostgreSQL. This release improves electrical
+accuracy, time resolution, scheduling, input traceability, and public
+full-stack deployment without adding unrelated product features.
 
 > **Educational use only:** PanelTwin is not a replacement for an NEC-compliant
 > load calculation, breaker or conductor selection, field measurement, local
@@ -15,14 +15,19 @@ production features.
 
 ## Live Demo
 
-**[Open the PanelTwin live demo](https://adamdiaz313-collab.github.io/PanelTwin/)**
+**[Open the editable PanelTwin app](https://paneltwin.vercel.app/)**
 
-The GitHub Pages demo is a read-only static version of the app. It loads a
-sample panel from `frontend/public/demo/panel.json` so visitors can explore the
-dashboard, split-phase calculations, charts, warnings, and equations without
-installing Python, Node.js, or SQLite.
+The Vercel deployment runs the React frontend and FastAPI backend on one
+domain. Neon PostgreSQL preserves homes, panel settings, circuits, loads, and
+schedules across deployments and backend restarts.
 
-The full editable app still uses the FastAPI backend and SQLite locally.
+This is a shared public sandbox because authentication is intentionally outside
+the current release scope. Changes are visible to all visitors. Do not enter
+private or sensitive information.
+
+The original
+[read-only GitHub Pages demo](https://adamdiaz313-collab.github.io/PanelTwin/)
+remains available as a static fallback.
 
 ## Why I Built This
 
@@ -40,7 +45,7 @@ pretending to be a licensed electrical design tool.
 - Translating electrical-engineering concepts into a working web application
 - Building a full-stack app with a React/Vite frontend and FastAPI backend
 - Modeling time-based demand with 15-minute weekday and weekend schedules
-- Persisting homes, panel settings, circuits, loads, and schedules in SQLite
+- Persisting data locally in SQLite and publicly in Neon PostgreSQL
 - Separating normal running demand from short startup/inrush transients
 - Writing backend tests around formulas, edge cases, persistence, and migration
 - Documenting model assumptions clearly enough for another developer to audit
@@ -59,8 +64,8 @@ pretending to be a licensed electrical design tool.
 - Explains equations, inputs, and assumptions throughout the interface
 - Migrates existing SQLite data without resetting saved homes
 
-This release intentionally does not add authentication, solar, batteries,
-reports, or production deployment features.
+This release intentionally does not add authentication, solar, batteries, or
+reports.
 
 ## Electrical Model
 
@@ -194,7 +199,8 @@ to place in its inputs. Appliance presets default to `Estimated`.
 ## Persistence and Migration
 
 PanelTwin stores homes, panels, circuits, loads, and normalized schedule periods
-in SQLite.
+in SQLite during local development. Hosted Vercel deployments use Neon
+PostgreSQL when `DATABASE_URL` is present.
 
 The default database is:
 
@@ -206,6 +212,19 @@ Set another path with:
 
 ```powershell
 $env:PANELTWIN_DB_PATH = "C:\data\paneltwin.db"
+```
+
+For PostgreSQL:
+
+```powershell
+$env:DATABASE_URL = "postgresql://..."
+```
+
+The FastAPI health endpoint reports the active storage adapter:
+
+```text
+GET /backend/health
+{"status":"ok","storage":"postgres"}
 ```
 
 On startup, older databases are migrated by:
@@ -250,6 +269,7 @@ PanelTwin/
 |-- LICENSE
 |-- paneltwin-dashboard.png
 |-- paneltwin-panel-chart.png
+|-- vercel.json
 `-- README.md
 ```
 
@@ -343,6 +363,21 @@ VITE_BASE_PATH=/${{ github.event.repository.name }}/
 ```
 
 That makes the React app load static demo data instead of calling `/api`.
+
+## Full-Stack Deployment
+
+The editable public deployment uses Vercel Services:
+
+- `/` routes to the Vite frontend.
+- `/backend/*` routes to the FastAPI service.
+- `DATABASE_URL` selects the PostgreSQL store.
+- Without `DATABASE_URL`, local development continues to use SQLite.
+
+The configuration lives in `vercel.json`. The production deployment is:
+
+```text
+https://paneltwin.vercel.app/
+```
 
 ## What I Learned
 

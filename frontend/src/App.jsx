@@ -176,6 +176,7 @@ function WarningCenter({ panel }) {
 
 export function App() {
   const isDemoMode = panelApi.isDemoMode;
+  const isPublicSandbox = import.meta.env.PROD && !isDemoMode;
   const [homes, setHomes] = useState([]);
   const [selectedHomeId, setSelectedHomeId] = useState("");
   const [panel, setPanel] = useState(null);
@@ -511,6 +512,15 @@ export function App() {
             </span>
           </aside>
         )}
+        {isPublicSandbox && (
+          <aside className="demo-banner" aria-label="Public sandbox notice">
+            <strong>Editable public sandbox</strong>
+            <span>
+              Changes are saved in the hosted database and are visible to all
+              visitors. Do not enter private or sensitive information.
+            </span>
+          </aside>
+        )}
 
         <section className="hero hero--twin">
           <div className="hero__copy">
@@ -522,7 +532,7 @@ export function App() {
             </p>
             <div className="hero__meta">
               <span>
-                {isDemoMode ? "Static live demo" : "SQLite persistence"}
+                {isDemoMode ? "Static live demo" : "Database persistence"}
               </span>
               <span>{panel.circuits.length} circuits</span>
               <span>{panel.summary.load_count} scheduled loads</span>

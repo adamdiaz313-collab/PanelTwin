@@ -1,0 +1,9 @@
+[project]
+name = "paneltwin-backend"
+version = "1.0.0"
+description = "PanelTwin FastAPI backend"
+requires-python = ">=3.12"
+dependencies = [
+  "fastapi>=0.115.12,<1",
+  "psycopg[binary]>=3.2.13,<4",
+]

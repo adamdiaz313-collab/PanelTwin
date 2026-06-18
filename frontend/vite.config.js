@@ -11,9 +11,10 @@ export default defineConfig(({ mode }) => {
     server: {
       port: 5173,
       proxy: {
-        "/api": {
+        "/backend": {
           target: apiTarget,
           changeOrigin: true,
+          rewrite: (path) => path.replace(/^\/backend/, ""),
         },
         "/health": {
           target: apiTarget,
