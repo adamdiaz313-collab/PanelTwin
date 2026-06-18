@@ -15,18 +15,7 @@ production features.
 
 ## Live Demo
 
-After this repository is pushed to GitHub and GitHub Pages is enabled with
-**Source: GitHub Actions**, the live demo will be available at:
-
-```text
-https://YOUR_GITHUB_USERNAME.github.io/YOUR_REPOSITORY_NAME/
-```
-
-For example, if the repo is named `PanelTwin`:
-
-```text
-https://YOUR_GITHUB_USERNAME.github.io/PanelTwin/
-```
+**[Open the PanelTwin live demo](https://adamdiaz313-collab.github.io/PanelTwin/)**
 
 The GitHub Pages demo is a read-only static version of the app. It loads a
 sample panel from `frontend/public/demo/panel.json` so visitors can explore the
